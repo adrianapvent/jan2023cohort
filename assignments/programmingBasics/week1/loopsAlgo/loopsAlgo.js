@@ -3,3 +3,4 @@ for(var num = 1; num <= 20; num++) {
         console.log('Practice 1 AP:', num)
     }
 }
+// results will present with odd numbers
