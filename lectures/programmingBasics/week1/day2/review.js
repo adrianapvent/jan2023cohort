@@ -21,7 +21,7 @@ for(let i = 0; i <= 200; i++) {
     } else {
         sum = sum - 1
     }
-    // console.log('current value of i:', i, 'current sum:', sum)
+    console.log('current value of i:', i, 'current sum:', sum)
 }
 
 // Line #16: start for loop, start at 0 end < 200 increase by 1
@@ -45,7 +45,7 @@ for(let i = 0; i <= 200; i++) {
 
 
 let newSum = 0
-for(let i = 1; i <= 5; i++) {
+for(let i = 0; i <= 5; i++) {
     newSum = newSum + i
     console.log("Num:", i, "Sum:", newSum)
 }
