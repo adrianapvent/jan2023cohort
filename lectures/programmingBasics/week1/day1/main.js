@@ -23,16 +23,16 @@ const aNewString = 'Whats up Doc?'
 var a = 2
 var b = 4
 var c = a + b
-// console.log('var c, ML:', c)
+console.log('var c, ML:', c)
 
 a = 210
 var c = a + b
-// console.log('var c, ML:', c)
+console.log('var c, ML:', c)
 
 const d = 2
 const e = 4
 const f = d + e
-// console.log('const f, ML:', f)
+console.log('const f, ML:', f)
 
 // This will throw errors
 // d = 210
@@ -47,24 +47,24 @@ const f = d + e
 
 // for (start, stop, nextValue) { instructions }
 
-// for(var i = 1; i < 11; i++){
-//     console.log('1st for loop:',i)
-// }
+for(var i = 1; i < 11; i++){
+    console.log('1st for loop:',i)
+}
 
 // Print every other number 0-20
 
 // 1. create a for loop - i starts at 0 goes to and include 20 increase by 2 each time
 // 2. print each value of i
 
-// for(var i = 0; i <= 20; i+=2){
-//     console.log('2nd for loop:', i)
-// }
+for(var i = 0; i <= 20; i+=2){
+    console.log('2nd for loop:', i)
+}
 
 
 var cities = ["Birmingham", "Austin", "Seattle", "Orlando"]
 // index          0,           1,       2,          3
 // array cities length = 4
-// console.log('all cities', cities)
+console.log('all cities', cities)
 
 // Print each city on it's own line
 
@@ -72,22 +72,25 @@ var cities = ["Birmingham", "Austin", "Seattle", "Orlando"]
 // 2. start at 0
 //  3. end at end of array cities.length this will equal 4
 // 4. increase by 1 each loop
-// for(var i = 0; i < cities.length; i++){
-//     console.log('3rd loop', cities[i]) // cities[i] will give us the value at index i vs just the index number
-// }
-// for(var i = 0; i < cities.length; i++) { // building loop through cities
-//     console.log('4th loop 1st conditional', cities[i]) // printing current city value in loop
-//     if(cities[i] == "Austin") { // start conditional if value is equal to Austin
-//         console.log("Welcome to Texas") // instructions print console.log
-//     } 
-//     // if (cities[i] == "Seattle"){ // running this with the if will keep the conditional going after the 1st if may have passed so if this fails else will run too
-//     //     console.log('Get ready for the rain')
-//     else if (cities[i] == "Seattle"){ // Changing the if to else if means if the if fails check this if this fails run else.  so its either if or else if or default of else
-//         console.log('Get ready for the rain')
-//     }else { // if check failed 
-//         console.log("You have left the great state of Texas") // instructions print console.log
-//     }
-// }
+
+for(var i = 0; i < cities.length; i++){
+    console.log('3rd loop', cities[i]) // cities[i] will give us the value at index i vs just the index number
+}
+
+for(var i = 0; i < cities.length; i++) { // building loop through cities
+    console.log('4th loop 1st conditional', cities[i]) // printing current city value in loop
+    if(cities[i] == "Austin") { // start conditional if value is equal to Austin
+        console.log("Welcome to Texas") // instructions print console.log
+    } 
+    // if (cities[i] == "Seattle"){ // running this with the if will keep the conditional going after the 1st if may have passed so if this fails else will run too
+    //     console.log('Get ready for the rain')
+    else if (cities[i] == "Seattle"){ // Changing the if to else if means if the if fails check this if this fails run else.  so its either if or else if or default of else
+        console.log('Get ready for the rain')
+    }else { // if check failed 
+        console.log("You have left the great state of Texas") // instructions print console.log
+    }
+}
+
 // Loop #1 - print Birmingham if - else
 // Loop #2 = print Austin if - if
 // Loop #3 = print Seattle if - else
