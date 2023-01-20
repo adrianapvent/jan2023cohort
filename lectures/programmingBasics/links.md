@@ -39,3 +39,7 @@ leetcode
 hackerank
 codewars
 freecodecamp
+
+
+# Functions
+https://www.programiz.com/javascript/function
