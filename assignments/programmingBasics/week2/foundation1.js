@@ -54,7 +54,7 @@ function printMax(arr) {
             max = arr[i]
         }
     }
-    // console.log(max)
+    console.log(max)
 }
 
 // printMax([-3,3,5,7])
@@ -80,17 +80,109 @@ function arrOdds49() {
             arr.push(i)
         }
     }
-    console.log(arr)
+    // console.log(arr)
 }
 
-arrOdds49()
+// arrOdds49()
 
 
 // 8. Greater than Y - Given value of Y, write a function that takes an array and returns the number of values that are greater than Y. For example if arr = [1, 3, 5, 7] and Y = 3, your function will return 2. (There are two values in the array greater than 3, which are 5, 7).
 
+function greaterThanY(arr, y) {
+    var count = 0
+    for(let i = 0; i < arr.length; i++) {
+        if (arr[i] > y) {
+            count++
+        }
+    }
+    // console.log(count)
+}
+
+// greaterThanY([1,3,5,7], 3)
+
 
 // 9. Squares - Given an array with multiple values, write a function that replaces each value in the array with the value squared by itself. (e.g. [1,5,10,-2] will become [1,25,100,4])
+
+function square(arr) {
+    for(let i = 0; i < arr.length; i++) {
+        arr[i] *= arr[i] // multiplies a value by itself i.e. 3 * 3, 5 * 5
+    }
+    // console.log(arr)
+}
+
+// square([1,5,10,-2])
+
 // 10. Negatives - Given an array with multiple values, write a function that replaces any negative numbers within the array with the value of 0. When the program is done the array should contain no negative values. (e.g. [1,5,10,-2] will become [1,5,10,0])
+
+function zeroNeg(a) {
+    for(let i = 0; i < a.length; i++) { // begin at index 0, run through the give array, increment by 1 index # each time
+        if(a[i] < 0) { // if the index # is less than Zero then...
+            a[i] = 0 // change the index # to 0
+        }
+    }
+    // console.log(a)
+}
+
+// zeroNeg([1,5,10,-2])
+
+
 // 11. Max/Min/Avg - Given an array with multiple values, write a function that returns a new array that only contains the maximum, minimum, and average values of the original array. (e.g. [1,5,10,-2] will return [10,-2,3.5])
+
+function maxMinAvg(arr) {
+    let max = arr[0]
+    let sum = 0 
+    let min = 0
+
+    for(let i = 0; i < arr.length; i ++) {
+        if(arr[i] > max) {
+            max = arr[i]
+        }
+    }
+    // console.log(max)
+
+    for(let i = 0; i < arr.length; i++) {
+        sum += arr[i] / arr.length;
+    }
+    // console.log(sum/arr.length)
+    // return sum/arr.length
+
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] < min) {
+            min = arr[i]
+        }
+        // console.log(min)
+    }
+    let result = {max: max, min: min, avg: sum}
+    console.log(`Max: ${max}, Min ${min}, Avg: ${sum}`)
+    return result
+}
+
+// maxMinAvg([1,5,10,-2])
+
+
 // 12. Swap Values - Write a function that will swap the first and last values of any given array. The default minimum length of the array is 2. (e.g. [1,5,10,-2] will become [-2,5,10,1]).
+
+function swap(arr) {
+    let arrNew = arr.slice(); // we want a new array
+    let temp = arrNew[0]; // temporary value holds value at index 0
+    arrNew[0] = arrNew[arrNew.length - 1]; // new index 0 - replace value at index 0 with last value in the array
+    arrNew[arrNew.length - 1] = temp; // use temporary value that was holding index 0 value for the last position in the array
+    // console.log (arrNew) // console the new array with first and last values swapped.
+    return arrNew
+}
+
+// swap([1,5,10,-2])
+
+
 // 13. Number to String - Write a function that takes an array of numbers and replaces any negative values within the array with the string 'Dojo'. For example if array = [-1,-3,2], your function will return ['Dojo','Dojo',2].
+
+function swapDojo (arr) {
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] < 0) { // if index value is less than 0
+        arr[i] = 'Dojo' // then replace it with Dojo
+        }
+    }
+    console.log(arr) // console new array
+}
+
+swapDojo ([-1,-2,3])
