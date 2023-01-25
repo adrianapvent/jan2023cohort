@@ -26,3 +26,16 @@
 // 	}
 // 	console.log(arr04[i])
 // }
+
+// let meals = [
+//     {'meal': 'spaghetti', 'ingredients': {'grains':  }
+// ]
+
+var hello = "Good Morning Jarrell"
+var crazy = "I am in a crazy mood today"
+
+function sayHi(a) {
+    console.log(a)
+}
+sayHi(hello)
+sayHi(crazy)
