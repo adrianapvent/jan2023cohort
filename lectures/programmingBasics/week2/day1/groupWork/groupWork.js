@@ -40,5 +40,6 @@ function printMax(arr02) {
 
 printMax(arr02)
 
+
 // Create a function that takes an array of Objects and prints back the names of each pet and their age
 let arr03 = [{name: 'Bear', type: 'dog', stats: [{age: 7, color: ['brown', 'black']}]}, {name: 'Copper', type: 'dog', stats: [{age: 2, color: ['White', 'brown', 'black']}]}, {name: 'Lily', type: 'Betta Fish', stats: [{age: 1, color: ['blue', 'off White']}]}]

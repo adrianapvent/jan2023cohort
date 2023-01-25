@@ -43,3 +43,7 @@ freecodecamp
 
 # Functions
 https://www.programiz.com/javascript/function
+
+
+# Changing mysql password
+https://linuxhint.com/change-mysql-root-password-ubuntu/
