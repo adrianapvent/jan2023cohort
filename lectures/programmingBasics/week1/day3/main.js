@@ -52,6 +52,19 @@ for(let i = 0; i < meals.length; i++) {
     //     console.log(m.grains[0])
     // }
 }
+// dairy
+for(let i = 0; i < meals.length; i++) {
+    let m = meals[i].ingredients
+    // console.log(m.grains)
+    if(m.dairy.length > 1){
+        for(let g = 0; g < m.dairy.length; g++){
+            let newM = m.dairy[g]
+            console.log(newM)
+        }
+    } else {
+        console.log(m.dairy[0])
+    }
+}
 
 //  line 1 - for loop going through the meal array
 // line 2 - creating a var m setting it to be the objects that are the values of ingredients
@@ -74,22 +87,22 @@ for(let i = 0; i < meals.length; i++) {
 //     // }
 // }
 
-for(let i = 0; i < meals.length; i++) { // opening and pulling out each individual box containing 1 meal 
-    let m = meals[i].ingredients // m is opening the meal box and pulling out each ingredient box
-        for(let g = 0; g < m.grains.length; g++){ // going through each box that says grains
-            console.log(m.grains) // looking at the label on the box of grains
-            let newM = m.grains[g] // opening each box of grains and pulling out contents
-            // console.log(newM) // listing the contents
-        }
-}
-for(let i = 0; i < meals.length; i++) {
-    let m = meals[i].ingredients
-        for(let g = 0; g < m.fruits.length; g++){
-            console.log(m.fruits)
-            let newM = m.fruits[g]
-            console.log(newM)
-        }
-}
+// for(let i = 0; i < meals.length; i++) { // opening and pulling out each individual box containing 1 meal 
+//     let m = meals[i].ingredients // m is opening the meal box and pulling out each ingredient box
+//         for(let g = 0; g < m.grains.length; g++){ // going through each box that says grains
+//             console.log(m.grains) // looking at the label on the box of grains
+//             let newM = m.grains[g] // opening each box of grains and pulling out contents
+//             // console.log(newM) // listing the contents
+//         }
+// }
+// for(let i = 0; i < meals.length; i++) {
+//     let m = meals[i].ingredients
+//         for(let g = 0; g < m.fruits.length; g++){
+//             console.log(m.fruits)
+//             let newM = m.fruits[g]
+//             console.log(newM)
+//         }
+// }
 
 
 var someToons02 = ["http://images.thehive-services.com/looneyToonsApi/porky.jpg", "http://images.thehive-services.com/looneyToonsApi/marvin.jpg", "http://images.thehive-services.com/looneyToonsApi/tweety.png", "http://images.thehive-services.com/looneyToonsApi/foghorn.jpg", "http://images.thehive-services.com/looneyToonsApi/elmer.jpg", "http://images.thehive-services.com/looneyToonsApi/sylvester.jpg", "http://images.thehive-services.com/looneyToonsApi/yosemite.jpeg", "http://images.thehive-services.com/looneyToonsApi/taz.jpg", "http://images.thehive-services.com/looneyToonsApi/pepe.jpg"]
@@ -121,20 +134,20 @@ var toons = [
     // print toons[i].spouse
 
     // Print the spouse for each object
-    for(let i = 0; i < toons.length; i++) {
-        console.log(toons[i].spouse)
-    }
-    // Print every other objects spouse
-    for(let i = 0; i < toons.length; i+=2) {
-        console.log(toons[i].spouse)
-    }
-    // Start at the last object going to the first one printing the name
-    for(let i = toons.length-1; i >=0; i--) {
-        console.log(toons[i].name)
-    }
-    // Start at the last object going to the first one printing every other name
-    for(let i = toons.length-1; i >=0; i-=2) {
-        console.log(toons[i].name)
-    }
+    // for(let i = 0; i < toons.length; i++) {
+    //     console.log(toons[i].spouse)
+    // }
+    // // Print every other objects spouse
+    // for(let i = 0; i < toons.length; i+=2) {
+    //     console.log(toons[i].spouse)
+    // }
+    // // Start at the last object going to the first one printing the name
+    // for(let i = toons.length-1; i >=0; i--) {
+    //     console.log(toons[i].name)
+    // }
+    // // Start at the last object going to the first one printing every other name
+    // for(let i = toons.length-1; i >=0; i-=2) {
+    //     console.log(toons[i].name)
+    // }
 
-    console.log(toons.length)
+    // console.log(toons.length)
