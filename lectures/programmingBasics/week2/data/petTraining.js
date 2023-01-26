@@ -418,10 +418,10 @@ let pets = [
     {id: 10, name: 'Bones', enrolled: []}
 ]
 let cohorts = [
-    {id: 1, className: 'Agility'},
-    {id: 2, className: 'Behavior'},
-    {id: 3, className: 'Advanced Jumping'},
-    {id: 4, className: 'Service Dog Training'}
+    {id: 1, className: 'Agility', enrolled: []},
+    {id: 2, className: 'Behavior', enrolled: []},
+    {id: 3, className: 'Advanced Jumping', enrolled: []},
+    {id: 4, className: 'Service Dog Training', enrolled: []}
 ]
 let enrolled = [
     {id: 1, startDate: 'Jan 30, 2023'},
