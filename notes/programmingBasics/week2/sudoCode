@@ -1,0 +1,6 @@
+Wireframe
+User Dashboard
+
+users= id, firstName, lastName, email, user level, createdAt, updatedAt, 
+blogs= id, createdAt, updatedAt
+comments= id, createdAt, updatedAt
