@@ -185,11 +185,14 @@ function neg(arr) {
 // 12. Always Hungry - Create a function that accepts an array, and prints "yummy" each time one of the values is equal to "food".  If no array values are "food", then print "I'm hungry" once.
 
 function hungry(arr) {
-	for (let i = 0; i < arr.length; i++) { // begin at index 0, run through the array length, increment by 1 index value each time
-		if (arr[i] === 'food') { // if index value is equal to specific "food", then console.log "yummy"
+	for (let i = 0; i < arr.length; i++) {
+		// begin at index 0, run through the array length, increment by 1 index value each time
+		if (arr[i] === 'food') {
+			// if index value is equal to specific "food", then console.log "yummy"
 			console.log('yummy');
 		}
-		if (arr[i] != 'food') { // if index value is not equal to food, then console.log "I'm hungry"
+		if (arr[i] != 'food') {
+			// if index value is not equal to food, then console.log "I'm hungry"
 			console.log("I'm hungry!");
 		}
 	}
@@ -199,38 +202,24 @@ function hungry(arr) {
 
 // 13. Swap Toward the Center - Given an array, swap the first and last values, third and third-to-last values, etc.  Example: swapTowardCenter([true,42,"Ada",2,"pizza"]) turns the array into ["pizza", 42, "Ada", 2, true].  swapTowardCenter([1,2,3,4,5,6]) turns the array into [6,2,4,3,5,1].  No need to return the array this time.
 
-function swapCenter (arr) {
-    //swapping first and last
-//     let temp = arr[0]; // storing value for swap m
-//     arr[0] = arr[arr.length - 1]; 
-//     arr[arr.length - 1] =  temp
-//     console.log(arr);
-//     return arr;
-for(let i = 0; 0 < arr.length; i++) {
-    if(i == 0) {
-        let temp = arr[i];
-        arr[i] = arr[arr.length-1];
-        arr[arr.length -1] = temp;
-    }
-    if(i == 2) {
-        let temp = arr[i];
-        arr[i] = arr[arr.length -3];
-        arr[arr.length - 3] = temp;
-    }
-}
-console.log(arr)
-return(arr)
-
+function swapCenter(arr) {
+	let temp = arr[0];
+	arr[0] = arr[arr.length - 1];
+	arr[arr.length - 1] = temp;
+	let temp2 = arr[2];
+	arr[2] = arr[arr.length - 3];
+	arr[arr.length - 3] = temp2;
+	console.log(arr);
 }
 
-swapCenter([true,42,"Ada",2,"pizza"])
+swapCenter([1, 2, 3, 4, 5, 6]);
 
 // 14. Scale the Array - Given an array arr and a number num, multiply all values in the array arr by the number num, and return the changed array arr.  For example, scaleArray([1,2,3], 3) should return [3,6,9].
 
 function scaleArray(arr, num) {
-    for(let i = 0; i < arr.length; i++) {
-    console.log(arr[i] * num)
-    }
+	for (let i = 0; i < arr.length; i++) {
+		console.log(arr[i] * num);
+	}
 }
 
 // scaleArray([1,2,3], 3)
