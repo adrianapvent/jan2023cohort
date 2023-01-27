@@ -1,0 +1,59 @@
+classes/functions/printing/connecting
+
+Classes = Database Tables
+
+CREATE: / Attributes
+
+class user = needs to have a firstName and a lastName can have skills list
+all needs or required need to be listed in the constructor() can have items just have a data type or value
+new User() is calling constructor() function
+***** 
+class User {
+    constructor(firstName, lastName) {
+        this.firstName = firstName
+        this.lastName = lastName
+        this.skills = []
+        this.class = "WOS Jan 2023"
+    }
+}
+class Pets {
+    constructor(name, species, age, owner) {
+        this.name = name
+        this.species = species
+        this.age = age
+        this.favFood = ''
+        this.weight = ''
+        this.owner = owner  // in our database this would be owner_id referring to the owner table
+    }
+}
+*****
+
+// to create pet with owner linked
+we need to first have an owner know what called (id from other table or var from file)
+use the var/id in place of where owner goes
+
+let skippy = new Pet(skippy, dog, 3, 1) // if this was a database also insert into pet () values (skippy, dog, 3, 1);
+let skippy = const function(name, species, age, owner)
+let skippy = new Pet(skippy, dog, 3, jane ={User object = (jane,doe)})
+***
+let skippy = new Pet()
+***
+still need to have a owner var first so we can put that in the owner slot
+
+READ / DOING / Methods:
+create a method to print each object created we use in the class method the word this = the variable used to created the object
+let jane = new User = created a User object with var jane basically saying jane = {firstName: jane, firstName: Doe}
+to print janes info this = {jane}
+
+*****
+class Users {
+    constructor() {
+        ...
+    }
+    printUser() {
+        console.log(this.firstName, this.lastName) // just the class attributes will print
+        console.log(`${this.firstName}`)  // allows us to more smoothly or easily add not attribute words for sentence
+        // jane.firstName, jane.lastName
+    }
+}
+*****

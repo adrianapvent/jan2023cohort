@@ -1,0 +1,44 @@
+Create an ERD to represent the database for an application that allows users to plan events and rsvp to others' events.
+
+Each event should have a title, a description, location, a start time, and an end time. Each user should have a name and an address. Use the MySQL Workbench for creating this diagram.
+
+Tables needed = user, event, rsvp
+
+user table needs = name, address
+event table  needs = title, description, location, starttime, endtime, creator(user_id)
+rsvp tables needs = event(event_id), attendee(user_id)
+
+
+create an ERD for a class signup
+
+each class should have the title, teacher, location, description, start and stop
+each user should have a first and last name
+
+1 user can create the class
+many users can sign up for the class
+
+tables = users, classes, signups
+
+users table = first and last name
+class table = title teacher location, desc, start and stop, user_id
+signup table = class_id user_id
+
+
+
+users = Teachers and Students
+events = the event and who created it (the clipboard)
+rsvp = who added thier names to the event clipboard
+
+
+as a user i can created an event because someone has to make the clipboard and hang it up for other users to someone
+as a user i can also attend events as I am always learning myself and someone else might be teaching something I want to know - this is why the users is both teachers and students combined
+
+
+Dasbhboard
+
+tables = user, message
+
+
+user table = username, password, first, last, level=0, createdat, description
+message table = content, messageLeaver(user_id), createdat, messageReciever(user_id)
+

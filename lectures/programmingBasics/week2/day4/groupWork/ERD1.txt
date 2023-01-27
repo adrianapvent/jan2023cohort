@@ -1,0 +1,36 @@
+Create a ERD using the ERD1 image
+
+2 tables: movies, images
+
+movies table: title, info, releaseDate, url (id, createdAt, updatedAt)
+images table: title, info, releaseDate, url (id, createdAt, updatedAt)
+
+Adding Movie to DB:
+INSERT INTO movies (title, info, releaseDate, url) VALUES ('Black Panther', 'bla bla', 'year', 'https://domain.com'); // id 1
+
+Adding Image to DB:
+INSERT INTO images (title, info, releaseDate, url) VALUES ('Mountains', 'bla bla', 'year', 'https://domain.com'); // id 1
+
+
+
+
+
+
+
+Adding data to DB:
+INSERT INTO (fields/columns/attributes/key) VALUES (actual values);
+
+let movies = [
+    {
+        id: 1,
+        title: 'Black Panther',
+        info: 'bla bla',
+        releaseDate: 'year',
+        url: 'https://domain.com',
+        createdAt: date,
+        updatedAt: date
+    }
+]
+
+This will get you the last item in table by ordering them in reverse order and only allowing 1
+SELECT * FROM table ORDER BY columnName DESC LIMIT 1;
