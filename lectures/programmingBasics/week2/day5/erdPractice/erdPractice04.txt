@@ -1,0 +1,1 @@
+-- Create a DB to keep track of this classes exam grades. There is more than 1 version of the exam that can be given.  Students that pass earn a yellow belt those that don't receive a white belt
