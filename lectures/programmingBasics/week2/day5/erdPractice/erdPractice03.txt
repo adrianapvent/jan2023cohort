@@ -1,0 +1,1 @@
+-- Create a Db that has a list of greenhouses in the area and the plants that they sell and how many they have of each

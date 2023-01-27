@@ -47,3 +47,6 @@ https://www.programiz.com/javascript/function
 
 # Changing mysql password
 https://linuxhint.com/change-mysql-root-password-ubuntu/
+
+
+https://www.w3schools.com/nodejs/nodejs_mysql_select.asp
