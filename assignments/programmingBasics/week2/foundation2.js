@@ -104,9 +104,10 @@ function evensOdds(arr) {
 	}
 }
 
-evensOdds([1, 1, 1, 4, 4, 4]);
+// evensOdds([1, 1, 1, 4, 4, 4]);
 
 // 7. Increment the Seconds - Given an array of numbers arr, add 1 to every other element, specifically those whose index is odd (arr[1], arr[3], arr[5], etc).  Afterward, console.log each array value and return arr.
+
 
 
 // 8. Previous Lengths - You are passed an array (similar to saying 'takes in an array' or 'given an array') containing strings.  Working within that same array, replace each string with a number - the length of the string at the previous array index - and return the array.  For example, previousLengths(["hello", "dojo", "awesome"]) should return ["hello", 5, 4]. Hint: Can for loops only go forward?
