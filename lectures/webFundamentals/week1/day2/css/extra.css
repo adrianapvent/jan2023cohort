@@ -1,0 +1,29 @@
+/* * {
+    border: 2px dotted red;
+}
+.header {
+    margin: 2em;
+    padding: 1em;
+}
+.nav {
+    display: inline;
+} */
+p {
+    width: 400px;
+}
+.inline {
+    display: inline;
+}
+.green {
+    color: green;
+}
+.inlineBlock {
+    display: inline-block;
+}
+.blocks {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    display: inline-block;
+}

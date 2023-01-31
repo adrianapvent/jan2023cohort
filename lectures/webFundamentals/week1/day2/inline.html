@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/extra.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start header -->
+    <!-- 
+        inline: takes only the space it needs for its content
+        block: takes 100% of the parent
+        inline-block: allows for inline properties of only it's content's size but keeps them separate
+     -->
+    <header>
+        <h1>Inline, Block, inline-block</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <!-- end header start main content -->
+    <main>
+        <div>
+            <!-- inline will take the two and make as if almost 1 p tag.  setting width does nothing unless inline is not set (keep as block and they will be the width set.) -->
+            <p class="inline green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus? Vel, consequuntur cum rem doloremque deserunt ut? Consectetur fugiat doloribus eaque ducimus nobis quam quia! Aperiam, nemo! Distinctio, itaque!</p>
+            <p class="inline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quas excepturi! Nulla odio, iste quisquam recusandae molestias id sit iusto pariatur tempora quas qui distinctio adipisci corrupti nesciunt placeat quam?</p>
+        </div>
+        <div>
+            <!-- inline block allows for them to create columns when a width is set otherwise just add extra margin between them -->
+            <p class="inlineBlock green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ab accusamus? Vel, consequuntur cum rem doloremque deserunt ut? Consectetur fugiat doloribus eaque ducimus nobis quam quia! Aperiam, nemo! Distinctio, itaque!</p>
+            <p class="inlineBlock">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quas excepturi! Nulla odio, iste quisquam recusandae molestias id sit iusto pariatur tempora quas qui distinctio adipisci corrupti nesciunt placeat quam?</p>
+        </div>
+        <div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+        </div>
+    </main>
+</body>
+</html>

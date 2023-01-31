@@ -1,0 +1,31 @@
+body {
+  background-color: #106c10;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+body header h1 {
+  color: white;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main img {
+  max-width: 250px;
+  margin: 1em;
+  padding: 0.5em;
+  border: 6px groove #49372B;
+  background-color: #DEBC7F;
+}
