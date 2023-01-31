@@ -50,3 +50,9 @@ https://linuxhint.com/change-mysql-root-password-ubuntu/
 
 
 https://www.w3schools.com/nodejs/nodejs_mysql_select.asp
+
+
+https://www.w3schools.com/html/html_form_input_types.asp
+
+
+https://validator.w3.org/nu/#textarea
