@@ -1,0 +1,19 @@
+/* *{
+	background-color: pink;
+	border: 2px dotted red;
+} */
+.center-box {
+	background-color: navy;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+	flex-direction: column;
+	
+}
+.center-item{
+	background-color: wheat;
+	padding: 20px;
+	margin: 20px;
+}
