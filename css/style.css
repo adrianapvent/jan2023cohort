@@ -1,26 +1,49 @@
 body {
   background-color: #106c10;
-}
-body header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95%;
 }
-body header h1 {
+body header,
+body lecture-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+body header h1,
+body lecture-component h1 {
   color: white;
 }
-body header nav {
+body header nav-component,
+body lecture-component nav-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+body header nav-component nav,
+body lecture-component nav-component nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 85%;
+}
+body header nav-component nav a,
+body lecture-component nav-component nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
 }
 body main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  width: 75%;
 }
 body main img {
   max-width: 250px;
