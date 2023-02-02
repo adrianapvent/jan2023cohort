@@ -1,0 +1,56 @@
+.center-box {
+	background-color: navy;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	padding: 20px;
+	margin: 20px;
+	flex-direction: column;
+	font-family: 'Monserrat', san-serif;
+}
+.center-item {
+	background-color: wheat;
+	padding: 20px;
+	margin: 20px;
+}
+.nav {
+	background-color: rgb(88, 150, 237);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px 20px;
+	margin: 20px 10px;
+	/* text-align: justify; */
+}
+#dojo {
+	background-color: rgb(88, 150, 237);
+	max-height: 3em;
+	color: white;
+	display: flex-end;
+}
+.h1 {
+	background-color: rgb(88, 150, 237);
+	padding: 30px;
+	font-size: large;
+	align-content: space-between;
+	text-align: justify;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 20px;
+	text-align: justify;
+}
+li {
+	padding: 0px 50px;
+	margin: 0px 10px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
