@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Weather Forecast</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<h1>DojoWeather</h1>
+				<div class="nav">
+					<a href="#">Burbank</a>
+					<a href="#">Chicago</a>
+					<a href="#">Dallas</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cityNav">
+					<h2>San Jose</h2>
+					<div class="temp">
+						<h3>show temperature in</h3>
+						<form action="">
+							<label for="degrees"></label>
+							<select name="degrees" id="">
+								<option value="c">°C</option>
+							</select>
+						</form>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<h2>Today</h2>
+						<img src="./img/assets/some_rain.png" alt="some_rain" />
+						<h3>some rain</h3>
+						<div class="degrees">
+							<h2 id="red">24°</h2>
+							<h2 id="blue">18°</h2>
+						</div>
+					</div>
+					<div class="card">
+						<h2>Tomorrow</h2>
+						<img src="./img/assets/some_sun.png" alt="some_sun" />
+						<h3>some sun</h3>
+						<div class="degrees">
+							<h2 id="red">27°</h2>
+							<h2 id="blue">1°</h2>
+						</div>
+					</div>
+					<div class="card">
+						<h2>Friday</h2>
+						<img src="./img/assets/some_clouds.png" alt="some_clouds" />
+						<h3>some clouds</h3>
+						<div class="degrees">
+							<h2 id="red">21°</h2>
+							<h2 id="blue">16°</h2>
+						</div>
+					</div>
+					<div class="card">
+						<h2>Saturday</h2>
+						<img src="./img/assets/some_sun.png" alt="some_sun" />
+						<h3>some sun</h3>
+						<div class="degrees">
+							<h2 id="red">26°</h2>
+							<h2 id="blue">21°</h2>
+						</div>
+					</div>
+				</div>
+				<div class="cookie">
+					<img src="./img/assets/cookie.png" alt="cookie" />
+					<div class="cookieText">
+						<h3>Stop! Cookie Time</h3>
+						<p>We use cookies(sadly not edible ones)</p>
+						<span><a href="#">Read more...</a></span>
+					</div>
+					<button>I accept</button>
+				</div>
+			</div>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>

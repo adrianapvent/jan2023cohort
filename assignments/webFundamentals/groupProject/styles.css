@@ -1,0 +1,64 @@
+/* *{
+    border: 2px red dotted
+} */
+.header {
+    display: flex;
+    background-color: lightblue;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+.nav {
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+}
+.container {
+    grid-auto-rows: auto;
+}
+.cityNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: none none solid none;
+    border-radius: 3.5%;
+    border-color: black;
+    margin: 10px;
+
+}
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px 10px;
+    margin: 10px;
+}
+.col {
+    display: flex;
+    column-count: 4;
+    background-color: rgb(210, 208, 208);
+    text-align: center;
+}
+.card {
+    border-style: solid;
+}
+img {
+    border-radius: 160px;
+    padding: 10px;
+}
+.degrees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#red {
+    color: red;
+}
+#blue {
+    color: blue;
+}
+.cookie {
+    display: flex;
+    justify-content: space-around;
+}
