@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Past and Future</title>
+</head>
+<body>
+    <header>
+        <img src="./images/lambda-black.png" alt="Lambda">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="column">
+            <img src="./images/jumbo.jpg" alt="Jumbo">
+            <div class="row">
+                <div class="column topMain">
+                    <h3 onclick="alertMe(this)">The Future</h3>
+                    <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. </p>
+                </div>
+                <div class="column topMain">
+                    <h3 onclick="alertMe(this)">The Past</h3>
+                    <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="column midMain">
+            <h3>Why Did it have to be Boxes...</h3>
+            <div class="row boxes">
+                <p>Box 1</p>
+                <p>Box 2</p>
+                <p>Box 3</p>
+                <p>Box 4</p>
+                <p>Box 5</p>
+            </div>
+            <div class="row boxes">
+                <p>Box 6</p>
+                <p>Box 7</p>
+                <p>Box 8</p>
+                <p>Box 9</p>
+                <p onclick="countUp()">Box <span id="num">10</span></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column lowMain">
+                <h3>That's</h3>
+                <p>What did the red light say to the green light? Look awayyyyy I'm changing. What do you call a lost wolf? A Where-wolf. Due to quarantine, I'll only be telling inside jokes. I'd like to make a shout out to sidewalks, for keeping me off the streets. How do you make hold water? You boil the hell out of it. Why do crabs never give to charity? Because they're shellfish. What did the bra say to the hat? You go on a head, I gotta give these two a lift.</p>
+            </div>
+            <div class="column lowMain">
+                <h3>No</h3>
+                <p>What did the red light say to the green light? Look awayyyyy I'm changing. What do you call a lost wolf? A Where-wolf. Due to quarantine, I'll only be telling inside jokes. I'd like to make a shout out to sidewalks, for keeping me off the streets. How do you make hold water? You boil the hell out of it. Why do crabs never give to charity? Because they're shellfish. What did the bra say to the hat? You go on a head, I gotta give these two a lift.</p>
+            </div>
+            <div class="column lowMain">
+                <h3>Moon</h3>
+                <p>What did the red light say to the green light? Look awayyyyy I'm changing. What do you call a lost wolf? A Where-wolf. Due to quarantine, I'll only be telling inside jokes. I'd like to make a shout out to sidewalks, for keeping me off the streets. How do you make hold water? You boil the hell out of it. Why do crabs never give to charity? Because they're shellfish. What did the bra say to the hat? You go on a head, I gotta give these two a lift.</p>
+            </div>
+        </div>
+    </main>
+    <footer onclick="hideMe(this)">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

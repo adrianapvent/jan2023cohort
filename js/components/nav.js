@@ -8,10 +8,9 @@ class Nav extends HTMLElement {
                 <nav>
                     <a href="./index.html">Home</a>
                     <a href="./bear.html">Bear Memorial Page</a>
-                    <a href="#">Class Lectures</a>
+                    <a href="./lectures.html">Class Lectures</a>
                     <a href="#">Class Notes</a>
-                    <a href="./lectures/webFundamentals/index.html">Web Fundamental Pages</>
-                    <a href="#">1 stack class project</>
+                    <a href="#:>Class Projects</a>
                 </nav>
         `;
     }

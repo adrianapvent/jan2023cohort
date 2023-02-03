@@ -1,0 +1,104 @@
+/* * {
+    border: 1px red dotted;
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 1em;
+}
+header nav {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+main .column img {
+    width: 100%;
+    object-fit: contain;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topMain {
+    align-items: flex-start;
+    margin: .5em 1.5em;
+}
+hr {
+    border: 2px dotted black;
+    width: 99%;
+}
+.midMain {
+    align-items: flex-start;
+    width: 100%;
+    /* margin: .5em 1.5em; */
+}
+.midMain h3 {
+    margin: .5em 1.5em;
+}
+.boxes {
+    /* margin: .5em 1.5em; */
+    width: 100%;
+    justify-content: space-around;
+}
+.boxes p {
+    background-color: black;
+    color: white;
+    min-height: 35px;
+    min-width: 55px;
+    text-align: center;
+    padding: 52px 42px;
+}
+.lowMain {
+    margin: .5em 1.5em;
+    align-items: flex-start;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    background-color: black;
+    /* color: white; */
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+footer nav a {
+    color: white;
+}

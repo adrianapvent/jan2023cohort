@@ -4,8 +4,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 
-    header, lecture-component {
+    header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -38,6 +39,7 @@ body {
     }
     main {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
@@ -49,6 +51,19 @@ body {
             padding: .5em;
             border: 6px groove #49372B;
             background-color: #DEBC7F;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 75%;
         }
     }
 }

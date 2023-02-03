@@ -4,42 +4,39 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-body header,
-body lecture-component {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 75%;
-}
-body header h1,
-body lecture-component h1 {
   color: white;
 }
-body header nav-component,
-body lecture-component nav-component {
+body header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 75%;
 }
-body header nav-component nav,
-body lecture-component nav-component nav {
+body header h1 {
+  color: white;
+}
+body header nav-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+body header nav-component nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 85%;
 }
-body header nav-component nav a,
-body lecture-component nav-component nav a {
+body header nav-component nav a {
   color: white;
   text-decoration: none;
   font-size: 1.3em;
 }
 body main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -51,4 +48,17 @@ body main img {
   padding: 0.5em;
   border: 6px groove #49372B;
   background-color: #DEBC7F;
+}
+body main a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+body main .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
 }

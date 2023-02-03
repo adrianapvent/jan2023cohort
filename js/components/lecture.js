@@ -5,15 +5,12 @@ class Lecture extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-                <header>
-                    <nav>
-                        <a href="../../index.html">Home</a>
-                        <a href="../../bear.html">Bear Memorial</a>
-                    </nav>
-                    <nav>
-                        <a href="./lectures/webFundamentals/week1/day1/index.html" target="_blank">Week 1 Day 1</a>
-                    </nav>
-                </header>
+            <ol>
+                <li><a href="./lectures/programmingBasics/index.html">Programming Basics</a></li>
+                <li><a href="./lectures/webFundamentals/index.html">Web Fundamentals</a></li>
+                <li><a href="./lectures/cSharp/index.html">C#</a></li>
+                <li><a href="./lectures/java/index.html">Java</a></li>
+            </ol>
         `;
     }
 }

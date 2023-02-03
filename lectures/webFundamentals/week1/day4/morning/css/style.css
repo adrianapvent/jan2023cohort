@@ -1,0 +1,55 @@
+/* * {
+    border: 1px red dotted
+} */
+body {
+    /* width: 675px; */
+    margin: 0px auto;
+    overflow: hidden;
+    height: auto;
+    /* background-color: white; */
+    text-align: center;
+}
+.container {
+    width: 98%;
+    margin: 2px;
+    background-color: tan;
+    display: inline-block;
+    text-align: center;
+}
+header {
+    /* margin: 1em; */
+    /* width: 600px; */
+    /* display: inline-block; */
+    text-align: center;
+    /* background-color: tan; */
+    padding: 1em;
+}
+h1 {
+    display:inline;
+}
+header img {
+    height: 75px;
+    background-color: white;
+    
+}
+/* main {
+    background-color: tan;
+} */
+.row {
+    display: inline;
+}
+img {
+    width: 100px;
+    background-color: white;
+}
+.salmon, .blue {
+    border: 2px solid black;
+    margin: 1px;
+    padding: .5em;
+}
+.salmon {
+    background-color: salmon;
+}
+.blue {
+    background-color: skyblue;
+}
