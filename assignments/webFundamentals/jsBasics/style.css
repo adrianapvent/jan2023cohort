@@ -1,0 +1,38 @@
+* {
+    border: 1px dotted red;
+    /* background-color: rgb(76, 76, 143); */
+} 
+.mainContainer{
+    background-color: rgb(76, 76, 143);
+}
+.header {
+    background-color: red;
+    border-radius: 10px;
+    color: lightgray;
+    margin-bottom: 10px;
+}
+.middle{
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    background-color: rgb(39, 128, 128);
+    color: aqua;
+    margin-right: 15px;
+    border-radius: 10px;;
+}
+.mainText{
+    background-color: rgba(25, 25, 35, 0.884);
+    color:lightblue;
+    border-radius: 10px;
+}
+.footer{
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    color: lightblue;
+}
+a {
+    color: turquoise
+}
