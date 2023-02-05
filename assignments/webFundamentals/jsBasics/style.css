@@ -17,21 +17,25 @@
     justify-content: space-around;
 }
 .nav{
+    display: table-column;
     background-color: rgb(39, 128, 128);
     color: aqua;
     margin-right: 15px;
-    border-radius: 10px;;
+    border-radius: 10px;
+    height: 400px;
+    padding: 10px;
 }
 .mainText{
     background-color: rgba(25, 25, 35, 0.884);
     color:lightblue;
     border-radius: 10px;
+    padding: 10px;
 }
 .footer{
     padding: 20px;
     background-color: lightgrey;
     border-radius: 10px;
-    color: lightblue;
+    color: rgb(36, 140, 175);
 }
 a {
     color: turquoise
