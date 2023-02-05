@@ -4,6 +4,7 @@
 } 
 .mainContainer{
     background-color: rgb(76, 76, 143);
+    width: 970px;
 }
 .header {
     background-color: red;
