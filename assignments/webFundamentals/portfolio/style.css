@@ -24,6 +24,7 @@
 }
 .aboutMePic {
     width: 400px;
+    border: 5px solid #a1969a;
 }
 .aboutMeSec {
     width: 500px;
@@ -34,3 +35,17 @@
     padding: 20px;
     background-color: rgb(125, 124, 124);
 }
+.tier2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.projects {}
+.projectPhoto {
+    width: 400px;
+}
+.techImgs {
+    display: flex;
+    width: 10px;
+}
+.socials {}
