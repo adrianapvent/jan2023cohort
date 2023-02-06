@@ -19,17 +19,18 @@
 .tier1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     justify-items: auto;
 }
 .aboutMePic {
     width: 400px;
 }
-.heading {
+.aboutMeSec {
     width: 500px;
     background-color: rgba(197, 192, 192, 0.834);
     color:white;
 }
-.p1 {
-    
+.heading {
+    padding: 20px;
+    background-color: rgb(125, 124, 124);
 }
