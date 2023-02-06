@@ -1,0 +1,35 @@
+* {
+    border: 1px dotted red;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.499);
+}
+.name {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    background-color: rgba(59, 37, 59, 0.934);
+}
+.tier1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: auto;
+}
+.aboutMePic {
+    width: 400px;
+}
+.heading {
+    width: 500px;
+    background-color: rgba(197, 192, 192, 0.834);
+    color:white;
+}
+.p1 {
+    
+}
