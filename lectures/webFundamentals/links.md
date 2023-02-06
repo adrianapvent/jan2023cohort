@@ -14,3 +14,5 @@ https://flexboxfroggy.com/
 https://www.w3schools.com/tags/tag_span.asp
 
 loremIpsum generators - https://beedev-themes.github.io/lorem-ipsum/index.html
+
+https://cssgradient.io/
