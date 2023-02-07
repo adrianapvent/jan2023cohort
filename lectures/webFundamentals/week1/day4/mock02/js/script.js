@@ -3,6 +3,13 @@ console.log('wired up')
 function hideMe() {
     document.getElementById('hide').style.display = 'none'
 }
+// when activated by the button/element calling my function name
+// document = hey html doc
+// getElementById('hide') = find the id that is called hide
+// style = change the css for that id to....
+// display = css attribute to change is the display property
+// = 'none = this means change display: flex; to display: none;
+
 
 function alertMe(element) {
     // console.log('clicked city', element)

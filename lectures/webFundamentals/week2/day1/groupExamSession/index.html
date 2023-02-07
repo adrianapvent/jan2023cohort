@@ -8,23 +8,24 @@
     <title>The Squishy Store</title>
 </head>
 <body>
+    <!--  -->
     <header>
         <div class="row">
-            <img src="./images/breezee.png" alt="Breezee" onmouseover="changeImg(this)" onmouseleave="changeBack(this)">
+            <img src="./images/breezee.png" alt="Breezee" onmouseover="changeImg(this)">
             <h1>The Squishy Store</h1>
             <div class="column">
-                <span>0</span>
+                <span id="cart">0</span>
                 <img src="./images/cart.png" alt="cart">
             </div>
         </div>
-        <div>
+        <nav>
             <a href="#">Food Squishies</a>
             <a href="#">Fantasy Squishies</a>
             <a href="#">Programing Squishies</a>
             <a href="#">Zoo Squishies</a>
             <a href="#">Pet Squishies</a>
             <a href="#">Misc Squishies</a>
-        </div>
+        </nav>
     </header>
     <main>
         <h2>Meet our Squishies</h2>
@@ -53,7 +54,7 @@
                 <h3>The Fantasy Squishies</h3>
                 <div class="row miniSquish">
                     <div class="column">
-                        <img src="image/booger.png" alt="Booger">
+                        <img src="./images/booger.png" alt="Booger">
                         <p>Booger $<span class="price">10</span></p>
                         <button onclick="addToCart(this)">Add to Cart</button>
                     </div>
@@ -63,7 +64,7 @@
                         <button onclick="addToCart(this)">Add to Cart</button>
                     </div>
                     <div class="column">
-                        <img src="./images/Triclopz.jpg" alt="Triclopz">
+                        <img src="./images/Triclopz.png" alt="Triclopz">
                         <p>Triclopz $<span class="price">10</span></p>
                         <button onclick="addToCart(this)">Add to Cart</button>
                     </div>

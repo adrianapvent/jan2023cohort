@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>The Squishy Store</title>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <img src="./images/breezee.png" alt="Breezee" onmouseover="changeImg(this)" onmouseleave="changeBack(this)">
+            <h1>The Squishy Store</h1>
+            <div class="column">
+                <span id="cart">0</span>
+                <img src="./images/cart.png" alt="cart">
+            </div>
+        </div>
+        <nav>
+            <a href="#">Food Squishies</a>
+            <a href="#">Fantasy Squishies</a>
+            <a href="#">Programing Squishies</a>
+            <a href="#">Zoo Squishies</a>
+            <a href="#">Pet Squishies</a>
+            <a href="#">Misc Squishies</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Meet our Squishies</h2>
+        <div class="row squishyRow">
+            <div class="column">
+                <h3>The Food Squishies</h3>
+                <div class="row miniSquish">
+                    <div class="column">
+                        <img src="./images/apple-isha.png" alt="Apple-isha">
+                        <p>Apple-isha $<span class="price">5</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/berry-lishius.png" alt="Berry-lishius">
+                        <p>Berry-lishius $<span class="price">5</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/sandman.png" alt="Sandman">
+                        <p>Sandman $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h3>The Fantasy Squishies</h3>
+                <div class="row miniSquish">
+                    <div class="column">
+                        <img src="./images/booger.png" alt="Booger">
+                        <p>Booger $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/cyclopz.png" alt="Cyclopz">
+                        <p>Cyclopz $<span class="price">15</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/Triclopz.png" alt="Triclopz">
+                        <p>Triclopz $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/unicornia.png" alt="Unicornia">
+                        <p>Unicornia $<span class="price">20</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row squishyRow">
+            <div class="column">
+                <h3>The Programming Squishies</h3>
+                <div class="row miniSquish">
+                    <div class="column">
+                        <img src="./images/digilonian.png" alt="Digilonian">
+                        <p>Digilonian $<span class="price">5</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/lambdalonian.png" alt="LambdaLonian">
+                        <p>Lambdalonian $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h3>The Zoo Squishies</h3>
+                <div class="row miniSquish">
+                    <div class="column">
+                        <img src="./images/bubbles.png" alt="Bubbles">
+                        <p>Bubbles $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/chillie.png" alt="Chillie">
+                        <p>Chillie $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/fluffy.png" alt="Fluffy">
+                        <p>Fluffy $<span class="price">20</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/hyde.png" alt="Hyde">
+                        <p>Hyde $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/karleighKoala.png" alt="Karleigh Koala">
+                        <p>Karleigh Koala $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/pandamon.png" alt="Pandamon">
+                        <p>Pandamon $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/wally.png" alt="Wally">
+                        <p>Wally $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row squishyRow">
+            <div class="column">
+                <h3>The Pet Squishies</h3>
+                <div class="row miniSquish">
+                    <div class="column">
+                        <img src="./images/carlCamilion.png" alt="Carl Camilion">
+                        <p>Carl Camilion $<span class="price">5</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/purrl.png" alt="Purrl">
+                        <p>Purrl $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/starGazer.png" alt="Star Gazer">
+                        <p>Star Gazer $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h3>The Misc Squishes</h3>
+                <div class="row miniSquish">
+                    <div class="column">
+                        <img src="./images/aurora.png" alt="Aurora">
+                        <p>Aurora $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/breezee.png" alt="Breezee">
+                        <p>Breezee $<span class="price">25</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/happy.png" alt="Happy">
+                        <p>Happy $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/maggieMartian.png" alt="Maggie Martian">
+                        <p>Maggie Martian $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/rainbow.png" alt="Rainbow">
+                        <p>Rainbow $<span class="price">10</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                    <div class="column">
+                        <img src="./images/yankeeBoy.png" alt="Yankee Boy">
+                        <p>Yankee Boy $<span class="price">25</span></p>
+                        <button onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row footerRow">
+            <img src="./images/rainbow.png" alt="Rainbow">
+            <h3>Rainbow Squishy thanks you for stopping by</h3>
+        </div>
+        <div class="row" id="sale">
+            <img src="./images/maggieMartian.png" alt="Maggie Martian">
+            <h3>Maggie Martian Squishy would like to offer you a 20% discount on any squishies you purchase today.  Click the button to remove this box and see the sale prices</h3>
+            <button onclick="salePrices(this)">Click for Sale</button>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
