@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Fun</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1">Hey there</h1>
+    </header>
+    <main>
+        <button id="clickMe" onclick="clickMe(this)">Click ME</button>
+        <span id="randomFood"></span>
+    </main>
+    <script>
+        let count = 0
+        function clickMe(element) {
+            console.log('You found the button')
+            // How often has this been clicked
+            count++
+            console.log('The button was clicked', count)
+            if(count === 3) {
+                element.style.backgroundColor = 'blue'
+                element.style.color = "white"
+                element.style.transform = "rotate(45deg)"
+                document.getElementById('clickMe').innerText = 'You Clicked Me 3 times'
+            }
+        }
+        let food = ['pizza', 'cereal', 'taco', 'ice cream', 'chocolate', 'pasta']
+        function randomFood() {
+            let i = Math.floor(Math.random() * food.length-1)
+            let theFood = food[i]
+            console.log(i)
+            console.log(food[i])
+            if(i < 0) {
+                randomFood()
+            } else {
+                document.getElementById('randomFood').innerText = theFood
+            }
+            
+        }
+        randomFood()
+    </script>
+</body>
+</html>

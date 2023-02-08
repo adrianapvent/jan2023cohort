@@ -6,3 +6,16 @@
 
 ## Rules
 - List of skills will be in an array
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+

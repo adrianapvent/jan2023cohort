@@ -1,0 +1,9 @@
+* {
+    border: red 1px dotted;
+}
+
+header {
+    background-color: white;
+    color: black;
+    display: flex;
+}
