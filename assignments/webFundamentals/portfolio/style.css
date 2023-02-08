@@ -1,87 +1,128 @@
-* {
-    border: 1px dotted red;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: rgba(211, 211, 211, 0.499);
+/* * {
+	border: 1px dotted red;
+} */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+	background-color: rgba(211, 211, 211, 0.499);
 }
 .name {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.title{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.title {
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.container{
-    background-color: rgba(59, 37, 59, 0.934);
+.container {
+	background-color: rgba(59, 37, 59, 0.934);
+	padding: 10px;
+}
+h2 {
+	margin: 0;
 }
 .tier1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-items: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-items: auto;
+	margin: 10px;
 }
 .aboutMePic {
-    width: 400px;
-    border: 5px solid #a1969a;
+	width: 400px;
+	border: 5px solid #a1969a;
 }
 .aboutMeSec {
-    width: 500px;
-    background-color: rgba(197, 192, 192, 0.834);
-    color:white;
+	width: 500px;
+	background-color: rgba(197, 192, 192, 0.834);
+	color: white;
 }
 .tier2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-direction: row;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-direction: row;
 }
 .projects {
-    display: flex;
-    height: 650px;
-    width: 400px;
-    background-color: rgb(192, 189, 189);
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    margin: 15px; 
-    color: white;
+	display: flex;
+	height: 650px;
+	width: 400px;
+	background-color: rgb(192, 189, 189);
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	margin: 15px;
+	color: white;
 }
 .heading {
-    width: auto;
-    padding: 20px;
-    background-color: rgb(125, 124, 124);
+	display: flex;
+	width: auto;
+	padding: 20px;
+	background-color: rgb(125, 124, 124);
+	align-items: center;
+	align-content: center;
+}
+.p1 {
 }
 .projectPhoto {
-    width: 400px;
+	width: 400px;
+}
+.bottom {
+	display: flex;
+	flex-direction: column;
 }
 .tech {
-    display: flex;
-    background-color: rgb(125, 124, 124);
-    width: 380px;
-    padding: 10px;
-    align-content: center;
+	display: flex;
+	background-color: rgb(125, 124, 124);
+	width: 380px;
+	padding: 10px;
+	align-content: center;
+	flex-wrap: wrap;
 }
 .techImgs {
-    display: flex;
-    width: 50px;
+	display: flex;
+	margin: 0px;
+	width: 100%;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 .photo {
-    display: flex;
-    align-items: flex-start;
-    width: 50px;
-
-}
-.socialPhoto {
-    width: 40px;
+	display: flex;
+	margin: 10px;
+	align-items: flex-start;
+	width: 50px;
 }
 button {
-    color: white;
-    background-color: rgb(36, 123, 36);
-    border-radius: 5px;
-    box-shadow: 0 0 10px 10px;
-    width: 100px;
-    align-items: center;
-    justify-items: center;
+	display: flex;
+	color: white;
+	background-color: rgb(36, 123, 36);
+	border-radius: 5px;
+	box-shadow: 0 0 10px 10px;
+	width: 100px;
+	align-items: center;
+	justify-items: center;
+}
+.bottomContainer {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+footer p {
+	display: flex;
+	align-items: center;
+}
+p.personalInfo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.socials {
+	display: flex;
+	justify-content: center;
+	color: black;
+	align-items: center;
+}
+.socialPhoto {
+	width: 30px;
+	padding: 5px;
 }
