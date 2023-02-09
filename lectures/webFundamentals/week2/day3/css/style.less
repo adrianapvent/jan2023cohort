@@ -1,0 +1,36 @@
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    max-width: 150px;
+}
+
+body {
+    .flexrow();
+
+    .img {
+        .flexcolumn();
+
+        img {
+            max-width: 200px;
+        }
+    }
+    .bubbles {
+        .flexrow();
+        width: 600px;
+        flex-wrap: wrap;
+
+        img {
+            margin: 1em;
+        }
+    }
+}

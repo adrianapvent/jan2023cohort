@@ -46,3 +46,6 @@ https://www.doozytools.com/dev-tools/css-animation-generator
 
 https://animate.style/
 
+https://jquery.com/
+
+https://www4.lunapic.com/editor/?action=transparent
