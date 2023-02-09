@@ -1,0 +1,25 @@
+.container {
+	border: 2px black solid;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin: 20px;
+	width: 40%;
+}
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 50%;
+}
+button {
+    background-color: rgb(233, 233, 73);
+    width: 30%;
+    padding: 0 10px;
+    box-shadow: 3px 3px black;
+}
