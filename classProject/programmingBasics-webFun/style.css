@@ -21,6 +21,10 @@ body {
   background-color: black;
   background: radial-gradient(circle at -8.9% 51.2%, #ff7c00 0%, #ff7c00 15.9%, #ffa34d 15.9%, #ffa34d 24.4%, #131e25 24.5%, #131e25 66%);
 }
+body div #est,
+body div #cst {
+  color: white;
+}
 body #face {
   background-color: #f3f3f3;
   width: 300px;
