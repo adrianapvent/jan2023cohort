@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nasa APIs</title>
+</head>
+<body>
+    <h1>Nasa API calls</h1>
+    <div id="apod">
+        <button onclick="apod()">Get Astronomy Photo of the Day</button>
+    </div>
+    <!-- <div class="nasa">
+        <img src="" alt="">
+        <h1></h1>
+        <p></p>
+    </div> -->
+    <!-- Mission Rover = Curiosity, opportunity spirit 
+            Rover Cameras = FHAZ RHAZ NAVCAM -->
+    <div id="mars">
+        <form name="marsForm">
+            <select name="rover" id="rover">
+                <option value="curiosity">Curiosity Rover</option>
+                <option value="opportunity">Opportunity</option>
+                <option value="spirit">Spirit</option>
+            </select>
+            <select name="camera" id="camera">
+                <option value="fhaz">Front Hazard</option>
+                <option value="rhaz">Rear Hazard</option>
+                <option value="navcam">Navigation Camera</option>
+            </select>
+            <input type="button" value="submit" onclick="marsRovers()">
+        </form>
+    </div>
+    <script src="./js/key.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/mars.js"></script>
+    <!-- <script>
+        formData()
+    </script> -->
+</body>
+</html>

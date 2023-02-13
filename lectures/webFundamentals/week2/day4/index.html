@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Jokes</title>
+</head>
+<body>
+    <header>
+        <h1>Jokes API</h1>
+    </header>
+    <main>
+        <button onclick="getJoke()">Get Joke through JS</button>
+        <button id="jqueryJoke">Get Joke through jQuery</button>
+        <h3 id="joke"></h3>
+        <table id='jokeTable'>
+            <tr>
+                <th>Jokes</th>
+            </tr>
+            <!-- 
+                each activation loop through array create a new row for each index and put joke inside the td of new row
+             -->
+        </table>
+        <button id="squish">Populate with Squishies</button>
+        <button onclick="getSquish()">Get Squish</button>
+        <div class="squishies" id="squishies"></div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

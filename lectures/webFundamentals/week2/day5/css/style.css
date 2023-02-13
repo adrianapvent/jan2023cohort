@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body img {
+  max-width: 200px;
+}
+body #apod,
+body #mars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #apod .nasa,
+body #mars .nasa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

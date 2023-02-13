@@ -62,3 +62,16 @@ body main .row {
   flex-wrap: wrap;
   width: 75%;
 }
+body main #forks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main #forks .git {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
