@@ -1,0 +1,15 @@
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/bin/Debug/net6.0/DayOneCSharp
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/bin/Debug/net6.0/DayOneCSharp.deps.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/bin/Debug/net6.0/DayOneCSharp.runtimeconfig.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/bin/Debug/net6.0/DayOneCSharp.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/bin/Debug/net6.0/DayOneCSharp.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.csproj.AssemblyReference.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.AssemblyInfoInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.AssemblyInfo.cs
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.csproj.CoreCompileInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/refint/DayOneCSharp.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/DayOneCSharp.genruntimeconfig.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayOneCSharp/obj/Debug/net6.0/ref/DayOneCSharp.dll
