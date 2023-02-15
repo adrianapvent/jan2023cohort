@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+
+
 // Three Basic Arrays
 // Create an integer array with the values 0 through 9 inside.
 int[] numArray = new int[10];
@@ -41,6 +43,8 @@ foreach (bool response in arr)
     // Console.WriteLine(response);
 }
 
+
+
 // List of Flavors
 // Create a string List of ice cream flavors that holds at least 5 different flavors. (Feel free to add more than 5!)
 // List<string> flavors = new List<string>();
@@ -52,6 +56,8 @@ foreach (bool response in arr)
 // flavors.Add("lemon lime");
 
 // Console.WriteLine($"The different flavors include:{flavors}");
+
+
 // Output the length of the List after you added the flavors.
 // List<string> flavors = new List<string>();
 
@@ -62,6 +68,7 @@ foreach (bool response in arr)
 // flavors.Add("lemon lime");
 
 // Console.WriteLine($"We have {flavors.Count} flavors");
+
 
 // Output the third flavor in the List.
 //  List<string> flavors = new List<string>();
@@ -74,6 +81,7 @@ foreach (bool response in arr)
 
 // Console.WriteLine($"Our most popular flavor is {flavors[2]}");
 
+
 // Now remove the third flavor using its index location.
 List<string> flavors = new List<string>();
 
@@ -84,17 +92,40 @@ flavors.Add("rocky road");
 flavors.Add("lemon lime");
 
 flavors.Remove("strawberry");
-Console.WriteLine($"We have {flavors.Count} flavors");
+// Console.WriteLine($"We have {flavors.Count} flavors");
 
 // Output the length of the List again. It should now be one fewer.
+
+
+
+
 // User Dictionary
 // Create a dictionary that will store string keys and string values.
+Dictionary<string,string> profile = new Dictionary<string,string>();
+
 // Add key/value pairs to the dictionary where:
 // Each key is a name from your names array (this can be done by hand or using logic)
+profile.Add("Name", "Tim, Martin, Nikki, Sara");
+profile.Add("Flavor", "chocolate, vanilla, strawberry, rocky road, lemon lime");
+// profile.Add("Name", "Martin");
+// profile.Add("Name", "Nikki");
+// profile.Add("Name", "Sara");
+
+// Console.WriteLine("Student Profile");
+
+Console.WriteLine("Name - " + profile["Name"]);
+Console.WriteLine("Name - " + profile["Flavor"]);
+
+
+foreach(KeyValuePair<string,string> entry in profile)
+{
+    Console.WriteLine($"{entry.Key} - {entry.Value}");
+}
+
 // Each value is a randomly selected flavor from your flavors List (remember Random from earlier?)
 // Loop through the dictionary and print out each user's name and their associated ice cream flavor.
-// Complete the Three Basic Arrays section.
+// Complete the Three Basic Arrays section. done!
 
-// Complete the List of Flavors section.
+// Complete the List of Flavors section. done!
 
 // Complete the User Dictionary section.
