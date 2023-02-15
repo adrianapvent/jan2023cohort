@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/bin/Debug/net7.0/ClassReview
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/bin/Debug/net7.0/ClassReview.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/bin/Debug/net7.0/ClassReview.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/bin/Debug/net7.0/ClassReview.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/bin/Debug/net7.0/ClassReview.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/refint/ClassReview.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ClassReview.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day3/ClassReview/obj/Debug/net7.0/ref/ClassReview.dll

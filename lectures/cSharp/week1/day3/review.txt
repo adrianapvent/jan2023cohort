@@ -1,0 +1,102 @@
+1. How do I make a c sharp console app with the name of class review? Aquila
+check location
+dotnet new console -o ClassReview
+
+2. How do I run the created app? Ashunti
+cd into ClassReview
+dotnet run
+
+3. How do I print Welcome to class? Brianna
+open Program.cs file
+Console.WriteLine("Welcome to class!");
+then
+dotnet run
+
+4. print the numbers 1-10 kaitlynn
+int count = 1;
+while(count < 11) {
+    Console.WriteLine($"{count}");
+    count++;
+}
+
+5. create a list with 4 animals in it joslyn
+List<string> animals = new List <string> ();
+animals.Add("Zebra");
+animals.Add("Lion");
+animals.Add("Tiger");
+animals.Add("Bear");
+
+6. create a empty array and add 4 foods to it jackie
+string[] foods = new string[4];
+foods[0] = "Pizza";
+foods[1] = "Wings";
+foods[2] = "Sushi";
+foods[3] = "Ramen";
+
+7. create a dictionary of names and ages lizette
+dictionary<string, int> namesList = new dictionary<string, int>();
+namesList.Add("Lizette", 23);
+namesList.Add("Melissa", 44);
+
+8. loop through the list of animals sierra
+for(int i = 0; i < 4; i++){
+    Console.WriteLine(animals[i]);
+}
+alt (int i = 0; i < animals.Count; i++)
+
+9. loop through the array of food emily
+foreach(string food in foods) {
+    Console.WriteLine(food);
+}
+
+10. loop through the dictionary lia
+foreach(var entry in namesList) {
+    Console.WriteLine($"{entry.Key} is {entry.Value} years old");
+}
+
+11. check if dictionary entries are a string or int markebta
+int number = 0
+
+foreach(var entry in namesList){
+    var results = entry.Value;
+    if(int.TryParse(results, out number)) {
+        Console.WriteLine("This is a number");
+    } else {
+        Console.WriteLine("This is not a number");
+    }
+}
+
+12. create a list of grades muriel
+List<int> gradeList = new List<int>();
+gradeList.add(99);
+gradeList.add(80);
+gradeList.add(95);
+
+13. create a function that finds the average of the grades ubin
+static double average(List<int> list){
+    int sum = 0;
+    foreach(int grade in list) {
+        sum += grade;
+    }
+    return (double)sum/list.Count;
+}
+Console.WriteLine(average(gradeList));
+
+14. pull a random name from the dictionary dana
+// dictionary<string, int> namesList = new dictionary<string, int>();
+Random random = new Random();
+int rKey = random.Next(namesList.Count);
+string key = namesList.Keys.ElementAt(rKey);
+KeyValuePair<string, int> aKey = namesList.ElementAt(rKey);
+Console.WriteLine("key: " + aKey.Key + ", value: " + aKey.Value);
+
+
+15. print all the ages in the dictionary adriana
+
+// dictionary<string, int> namesList = new dictionary<string, int>();
+// namesList.Add("Lizette", 23);
+// namesList.Add("Melissa", 44);
+
+foreach(int age in namesList) {
+    Console.WriteLine("age: ", age.Value)
+}

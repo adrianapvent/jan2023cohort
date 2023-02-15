@@ -1,0 +1,38 @@
+1 hour to complete as much as you can as a group - write down lessons learned to be shared after hour
+
+1. Determine who is the lead
+    Lead will create organization and repo or just repo and invite other 2
+    Lead will create initial c sharp project and push to github
+
+2. each member will create 1 of the following (all should be created)
+    List and loop through
+    Array and loop through
+    Dictionary and loop through
+
+
+Hints:
+Organization means easier to find later vs just a repo
+use branches or communicate lines to use to prevent merge conflicts
+use only the created Program.cs file for all code.
+
+
+Group 1 Lessons Learned:
+
+
+
+Group 2 Lessons Learned:
+
+
+
+Group 3 Lessons Learned:
+
+
+
+Group 4 Lessons Learned:
+
+
+
+Group 5 Lessons Learned:
+
+
+
