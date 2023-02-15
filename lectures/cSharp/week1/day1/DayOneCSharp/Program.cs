@@ -9,4 +9,4 @@ Console.WriteLine("New print statement");
 string name = "Melissa";
 Console.WriteLine(name);
 string animal = "Mr Tucker";
-string newAnimal = 'M';
+// string newAnimal = 'M';

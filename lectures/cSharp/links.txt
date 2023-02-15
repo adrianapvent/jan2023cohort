@@ -1,2 +1,15 @@
+Install link https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+
+
 https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/#:~:text=and%20method%20names.-,What%20is%20Pascal%20Case%3F,first%20word%20is%20in%20lowercase).
 https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+https://www.tutorialsteacher.com/csharp/csharp-list
+
+https://www.positioniseverything.net/not-all-code-paths-return-a-value/
+
+https://www.quora.com/How-can-I-verify-if-user-input-is-a-number-in-C
+
+https://www.tutorialspoint.com/csharp/csharp_array_class.htm
+
+https://learn.microsoft.com/en-us/dotnet/api/system.int32.tryparse?view=net-7.0
