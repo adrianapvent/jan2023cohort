@@ -1,0 +1,15 @@
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.csproj.AssemblyReference.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.AssemblyInfoInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.AssemblyInfo.cs
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.csproj.CoreCompileInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/bin/Debug/net6.0/DayTwoCSharp
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/bin/Debug/net6.0/DayTwoCSharp.deps.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/bin/Debug/net6.0/DayTwoCSharp.runtimeconfig.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/bin/Debug/net6.0/DayTwoCSharp.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/bin/Debug/net6.0/DayTwoCSharp.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/refint/DayTwoCSharp.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/DayTwoCSharp.genruntimeconfig.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/obj/Debug/net6.0/ref/DayTwoCSharp.dll
