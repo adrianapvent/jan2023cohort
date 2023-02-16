@@ -1,0 +1,15 @@
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/bin/Debug/net6.0/CSharpAlgos
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/bin/Debug/net6.0/CSharpAlgos.deps.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/bin/Debug/net6.0/CSharpAlgos.runtimeconfig.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/bin/Debug/net6.0/CSharpAlgos.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/bin/Debug/net6.0/CSharpAlgos.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.csproj.AssemblyReference.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.AssemblyInfoInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.AssemblyInfo.cs
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.csproj.CoreCompileInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/refint/CSharpAlgos.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/CSharpAlgos.genruntimeconfig.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/CSharpAlgos/obj/Debug/net6.0/ref/CSharpAlgos.dll
