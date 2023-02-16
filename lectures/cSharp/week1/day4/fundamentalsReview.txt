@@ -1,0 +1,39 @@
+Things we have learned so far
+1. Data types
+    a. random
+    b. int
+    c. string
+    d. char
+    e. bool
+    f. double
+    g. float
+    h. long
+2. functions
+    a. loop
+    b. syntax
+    c. void vs datatype
+    d. passing in arguments
+    e. conditionals
+3. declare variables
+    a. proper syntax
+4. creating lists and dictionaries and arrays
+    a. syntax
+    b. array has set memory
+    c. key/value pairs = dictionaries
+    d. list can be changed/altered (values and length) arrays can not (values only)
+5. print to terminal
+    a. proper syntax
+    b. 3 ways to include vars in print
+        1. concatenation (using +)
+        2. interpolation ($"{varHere}")
+        3. using commas ("string {0}", 0Var) (string formatting)
+6. how to create a new console app
+    a. use the terminal to create
+        1. dotnet new console
+            a. you create folder Name
+            b. cd into Name
+            c. then run command
+        2. dotnet new console -o Name
+            a. creates the folder and the app
+    b. use terminal to run app
+        1. dotnet run

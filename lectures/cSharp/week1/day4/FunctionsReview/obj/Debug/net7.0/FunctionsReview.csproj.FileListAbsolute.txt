@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/bin/Debug/net7.0/FunctionsReview
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/bin/Debug/net7.0/FunctionsReview.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/bin/Debug/net7.0/FunctionsReview.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/bin/Debug/net7.0/FunctionsReview.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/bin/Debug/net7.0/FunctionsReview.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/refint/FunctionsReview.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/FunctionsReview.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/FunctionsReview/obj/Debug/net7.0/ref/FunctionsReview.dll

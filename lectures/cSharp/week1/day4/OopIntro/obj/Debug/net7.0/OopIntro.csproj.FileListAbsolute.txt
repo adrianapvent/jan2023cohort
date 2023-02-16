@@ -1,0 +1,5 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/OopIntro/obj/Debug/net7.0/OopIntro.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/OopIntro/obj/Debug/net7.0/OopIntro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/OopIntro/obj/Debug/net7.0/OopIntro.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/OopIntro/obj/Debug/net7.0/OopIntro.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day4/OopIntro/obj/Debug/net7.0/OopIntro.csproj.CoreCompileInputs.cache
