@@ -106,7 +106,7 @@ Dictionary<string,string> profile = new Dictionary<string,string>();
 // Add key/value pairs to the dictionary where:
 // Each key is a name from your names array (this can be done by hand or using logic)
 profile.Add("Name", "Tim, Martin, Nikki, Sara");
-profile.Add("Flavor", "chocolate, vanilla, strawberry, rocky road, lemon lime");
+profile.Add("Flavor", "chocolate, vanilla, strawberry, rocky road");
 // profile.Add("Name", "Martin");
 // profile.Add("Name", "Nikki");
 // profile.Add("Name", "Sara");
@@ -116,6 +116,11 @@ profile.Add("Flavor", "chocolate, vanilla, strawberry, rocky road, lemon lime");
 Console.WriteLine("Name - " + profile["Name"]);
 Console.WriteLine("Name - " + profile["Flavor"]);
 
+Random rand = new Random();
+for(int i = 0; i < names.Length; i++) 
+{
+    profile.Add(names[i], flavors[rand.Next(0,flavors.Count)]);
+}
 
 foreach(KeyValuePair<string,string> entry in profile)
 {
