@@ -1,0 +1,15 @@
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.csproj.AssemblyReference.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.AssemblyInfoInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.AssemblyInfo.cs
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.csproj.CoreCompileInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/bin/Debug/net6.0/Fundamentals3
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/bin/Debug/net6.0/Fundamentals3.deps.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/bin/Debug/net6.0/Fundamentals3.runtimeconfig.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/bin/Debug/net6.0/Fundamentals3.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/bin/Debug/net6.0/Fundamentals3.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/refint/Fundamentals3.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/Fundamentals3.genruntimeconfig.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/Debug/net6.0/ref/Fundamentals3.dll

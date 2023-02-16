@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/Fundamentals3/Fundamentals3.csproj": {}
+    "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/Fundamentals3.csproj": {}
   },
   "projects": {
-    "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/Fundamentals3/Fundamentals3.csproj": {
+    "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/Fundamentals3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/Fundamentals3/Fundamentals3.csproj",
+        "projectUniqueName": "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/Fundamentals3.csproj",
         "projectName": "Fundamentals3",
-        "projectPath": "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/Fundamentals3/Fundamentals3.csproj",
+        "projectPath": "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/Fundamentals3.csproj",
         "packagesPath": "/Users/Adriana.Pena/.nuget/packages/",
-        "outputPath": "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/DayTwoCSharp/Fundamentals3/obj/",
+        "outputPath": "/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/Fundamentals3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Adriana.Pena/.nuget/NuGet/NuGet.Config"
