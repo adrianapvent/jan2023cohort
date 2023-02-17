@@ -114,17 +114,24 @@ Console.WriteLine("------------");
 
 
 // 7. Find Key
-// static bool FindKey(Dictionary<string,string> MyDictionary, string SearchTerm)
-// {
-//     Dictionary<string,string> 
-// }
-// // Use the TestDict from the earlier example or make your own
-// // This should print true
-// Console.WriteLine(FindKey(TestDict, "RealName"));
-// // This should print false
-// Console.WriteLine(FindKey(TestDict, "Name"));
+static bool FindKey(Dictionary<string,string> MyDictionary, string SearchTerm)
+{
+    foreach(KeyValuePair<string, string> item in MyDictionary)
+    {
+        if(SearchTerm.Equals(item.Key)) {
+            return true;
+        }
+    }
+    return false;
+}
+// Use the TestDict from the earlier example or make your own
+// This should print true
+Console.WriteLine(FindKey(TestDict, "RealName"));
+// This should print false
+Console.WriteLine(FindKey(TestDict, "Name"));
+// Console.WriteLine("------------");
 
- // 8. Generate a Dictionary
+// 8. Generate a Dictionary
 // Ex: Given ["Julie", "Harold", "James", "Monica"] and [6,12,7,10], return a dictionary
 // {
 //	"Julie": 6,
@@ -132,23 +139,23 @@ Console.WriteLine("------------");
 //	"James": 7,
 //	"Monica": 10
 // } 
-static void GenerateDictionary()
-{
-    Dictionary<string,int> Students = new Dictionary<string, int>();
+// static void GenerateDictionary()
+// {
+//     Dictionary<string,int> Students = new Dictionary<string, int>();
 
-    Students.Add("Julie", 6);
-    Students.Add("Harold", 12);
-    Students.Add("James", 7);
-    Students.Add("Monica", 10);
+//     Students.Add("Julie", 6);
+//     Students.Add("Harold", 12);
+//     Students.Add("James", 7);
+//     Students.Add("Monica", 10);
 
-    Console.WriteLine("Students");
+//     Console.WriteLine("Students");
 
-    foreach(KeyValuePair<string,int> entry in Students)
-    {
-        Console.WriteLine($"{entry.Key} - {entry.Value}");
-    }
-}
-GenerateDictionary();
+//     foreach(KeyValuePair<string,int> entry in Students)
+//     {
+//         Console.WriteLine($"{entry.Key} - {entry.Value}");
+//     }
+// }
+// GenerateDictionary();
 // We've shown several examples of how to set your tests up properly, it's your turn to set it up!
 // Your test code here
 
