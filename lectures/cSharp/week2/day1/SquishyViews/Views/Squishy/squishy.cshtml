@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squishies</title>
+</head>
+<body>
+    <header>
+        <h1>The Squishies</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/squishy">Squishy</a>
+        </nav>
+    </header>
+    <main>
+        @{
+            var StringList = new List<string>
+            {
+                "https://images.craftsnherbs.com/squishies/Triclopz.png",
+                "https://images.craftsnherbs.com/squishies/fluffy.png",
+                "three",
+                "four"
+            };
+                
+            foreach(var img in StringList)
+            {
+                // We can render HTML from within C# code!
+            <img src="@img" >
+            }
+        }
+    </main>
+</body>
+</html>

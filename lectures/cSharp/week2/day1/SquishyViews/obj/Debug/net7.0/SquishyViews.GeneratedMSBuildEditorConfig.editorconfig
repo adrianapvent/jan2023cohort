@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SquishyViews
+build_property.RootNamespace = SquishyViews
+build_property.ProjectDir = /Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/Views/Squishy/oneSquishy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3F1aXNoeS9vbmVTcXVpc2h5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/SquishyViews/Views/Squishy/squishy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3F1aXNoeS9zcXVpc2h5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
