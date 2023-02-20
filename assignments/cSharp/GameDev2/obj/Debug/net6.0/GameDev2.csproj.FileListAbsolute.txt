@@ -1,0 +1,15 @@
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.csproj.AssemblyReference.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.AssemblyInfoInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.AssemblyInfo.cs
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.csproj.CoreCompileInputs.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/bin/Debug/net6.0/GameDev2
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/bin/Debug/net6.0/GameDev2.deps.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/bin/Debug/net6.0/GameDev2.runtimeconfig.json
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/bin/Debug/net6.0/GameDev2.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/bin/Debug/net6.0/GameDev2.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/refint/GameDev2.dll
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.pdb
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/GameDev2.genruntimeconfig.cache
+/Users/Adriana.Pena/Documents/WOS/jan2023cohort/assignments/cSharp/GameDev2/obj/Debug/net6.0/ref/GameDev2.dll
