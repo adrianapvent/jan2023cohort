@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/bin/Debug/net7.0/RideAndFuel
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/bin/Debug/net7.0/RideAndFuel.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/bin/Debug/net7.0/RideAndFuel.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/bin/Debug/net7.0/RideAndFuel.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/bin/Debug/net7.0/RideAndFuel.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/refint/RideAndFuel.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/RideAndFuel.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/RideAndFuel/obj/Debug/net7.0/ref/RideAndFuel.dll

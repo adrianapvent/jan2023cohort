@@ -1,0 +1,3 @@
+interface IRandom {
+    void Randomize();
+}

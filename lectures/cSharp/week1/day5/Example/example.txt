@@ -1,0 +1,49 @@
+Create a class called squishi to create a squishi instance we have to give it a name and by default it will have a stuffing value of true 
+
+class Squishi {
+    // These are the attributes that every squishi we ever make will HAVE to have
+
+    public string Name;
+    public bool Stuffing;
+
+    // Constructor tells us the attributes we get to make up vs are already determined for us
+    // in this constructor we know that we get to make up a name for our squishi but we are already told that it will have stuffing
+    // inside the () is what we can make up 
+    // if it is already told to us it will have it's value in the {} when it is called there
+    // Everything that each squishi HAS to HAVE will have an entry in the {}
+
+    public Squishi(string theName) {
+        Name = theName;
+        Stuffing = true;
+    }
+
+    // After the constructor comes our methods..... what can we make our squishies do or what can we do with them or something regarding them
+
+    // we can print their info (do with them)
+    public void PrintInfo() {
+        ........
+    }
+
+    // we can make them hug each other (what we can make our squishies do)
+    public void Hug() {
+        ........
+    }
+}
+
+Create a desk class where our squishies can go to live the desk has a name and a default hight and a list that will contain the squishies living there 
+we create an empty list because person 1 has a desk and squishies and person 2 has one as well they can have the same type of squishies but not always
+
+class Desk {
+    public string Name;
+    public int Height;
+    public List<Squishi> DeskSquishies;
+
+    public Desk(sting theName) {
+        Name = theName;
+        Height = 1;
+        DeskSquishies = new List<Squishi>();
+    }
+    public void AddSquishi() {
+
+    }
+}

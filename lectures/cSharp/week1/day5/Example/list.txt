@@ -1,0 +1,26 @@
+// In the creation we give it a generic or fake name as a parameter (List<string> MyList) so that regardless of the list length or actual name we can reuse this function for any and all Lists
+// Sometimes we dont' quite know what the list is going to be called untill after we create the function so we use MyList so we can determine it on calling the function
+
+static void PrintList(List<string> MyList)
+{
+    // Your code here
+}
+
+// These are the actual lists we want to use the function on
+List<string> TestStringList01 = new List<string>() {"Harry", "Steve", "Carla", "Jeanne"};
+List<string> TestStringList02 = new List<string>() {"Harry", "Steve", "Carla", "Jeanne"};
+
+
+// Here we are saying please run the PrintList function on xyz list
+PrintList(TestStringList01);
+PrintList(TestStringList02);
+
+
+function printList(arr) {
+    // Code here
+}
+
+var MelissaList = [1,2,3,4,4]
+var JuliList = [4,0,6,7,8]
+printList(MelissaList)
+printList(JuliList)

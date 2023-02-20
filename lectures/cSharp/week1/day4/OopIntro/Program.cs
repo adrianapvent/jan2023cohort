@@ -18,7 +18,11 @@ class Developer {
 
 
 // melissa = new Developer("Melissa", 44)
-Developer Melissa = new Developer("Melissa", 44);
+
+
+// Developer Melissa = new Developer("Melissa", 44);
+
+
 // Developer = the data type (as our class has multiple data types we use the class name as it's type)
 // Melissa = the variable we are using to call this specific developer we just hired
 // new Developer("Melissa", 44) = is how we are entering Melissa into our system as a newly hired developer if printed right now the attributes for melissa would be name=Melissa age=44 timeonjob=0 and role=jr dev

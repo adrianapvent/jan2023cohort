@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/bin/Debug/net7.0/Cards
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/bin/Debug/net7.0/Cards.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/bin/Debug/net7.0/Cards.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/bin/Debug/net7.0/Cards.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/bin/Debug/net7.0/Cards.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/refint/Cards.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/Cards.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Cards/obj/Debug/net7.0/ref/Cards.dll
