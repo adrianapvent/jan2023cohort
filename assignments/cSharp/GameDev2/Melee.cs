@@ -11,7 +11,7 @@ class Melee: Enemy
         };
     }
 
-    public void Rage(){
+    public void Rage(Enemy enemy){
         Attack attack = RandomAttack();
         attack.DamageAmount += 10;
 
