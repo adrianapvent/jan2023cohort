@@ -1,0 +1,15 @@
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/bin/Debug/net7.0/Gardens
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/bin/Debug/net7.0/Gardens.deps.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/bin/Debug/net7.0/Gardens.runtimeconfig.json
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/bin/Debug/net7.0/Gardens.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/bin/Debug/net7.0/Gardens.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.csproj.AssemblyReference.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.GeneratedMSBuildEditorConfig.editorconfig
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.AssemblyInfoInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.AssemblyInfo.cs
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.csproj.CoreCompileInputs.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/refint/Gardens.dll
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.pdb
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/Gardens.genruntimeconfig.cache
+/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week1/day5/Gardens/obj/Debug/net7.0/ref/Gardens.dll

@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/css/style.less",
+      "PackagePath": "staticwebassets/css/style.less"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/bee.png",
+      "PackagePath": "staticwebassets/images/bee.png"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/bookWorkOctocat.png",
+      "PackagePath": "staticwebassets/images/bookWorkOctocat.png"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/computerOctocat.png",
+      "PackagePath": "staticwebassets/images/computerOctocat.png"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/investigativeOctocat.png",
+      "PackagePath": "staticwebassets/images/investigativeOctocat.png"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/madScientistOctocat.png",
+      "PackagePath": "staticwebassets/images/madScientistOctocat.png"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/powerOctocat.png",
+      "PackagePath": "staticwebassets/images/powerOctocat.png"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day1/GitOctoCats/wwwroot/images/wizardOctocat.png",
+      "PackagePath": "staticwebassets/images/wizardOctocat.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.GitOctoCats.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.GitOctoCats.props",
+      "PackagePath": "build\\GitOctoCats.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.GitOctoCats.props",
+      "PackagePath": "buildMultiTargeting\\GitOctoCats.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.GitOctoCats.props",
+      "PackagePath": "buildTransitive\\GitOctoCats.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
