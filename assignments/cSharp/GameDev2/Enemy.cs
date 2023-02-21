@@ -13,16 +13,18 @@ class Enemy {
         AttackList = new List<Attack>();
     }
 
-    public void RandomAttack() {
+    public Attack RandomAttack() {
         Random rand = new Random();
         int num = rand.Next(0, AttackList.Count);
         Attack attack = AttackList[num];
         Console.WriteLine($"Player used {attack.Name} and was damaged {attack.DamageAmount}");
+        return attack;
     }
-
-//     public void PerformAttack(Enemy Target, Attack ChosenAttack)
-//     {
-//         // Write some logic here to reduce the Targets health by your Attack's DamageAmount
-//         Console.WriteLine($"{Name} attacks {Target.Name}, dealing {ChosenAttack.DamageAmount} damage and reducing {Target.Name}'s health to {Target.Health}!!");
-//     }
+//  public virtual void ShowInfo()
+    public virtual void PerformAttack(Enemy Target, Attack ChosenAttack)
+    {
+        Target.Health -= ChosenAttack.DamageAmount;
+        // Write some logic here to reduce the Targets health by your Attack's DamageAmount
+        Console.WriteLine($"{Name} attacks {Target.Name}, dealing {ChosenAttack.DamageAmount} damage and reducing {Target.Name}'s health to {Target.Health}!!");
+    }
 }
