@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razor Fun</title>
+</head>
+<body>
+    <header>
+        <h1>Razor Fun</h1>
+        <nav>
+            <a href="/razor">Home</a>
+        </nav>
+    </header>
+    <main>
+        @{
+            var StringList = new List<string>
+            {
+                "Apple Pie",
+                "Pizza",
+                "Cinnamon Rolls",
+                "Lasagna",
+                "Donuts",
+                "Chocolate cake",
+                "Burritos",
+            };
+                
+            foreach(var word in StringList)
+
+            {
+                // We can render HTML from within C# code!
+                <p>@word</p>
+            }
+        }
+    </main>
+</body>
+</html>
