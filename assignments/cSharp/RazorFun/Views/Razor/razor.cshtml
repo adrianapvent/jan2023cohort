@@ -26,12 +26,22 @@
                 "Burritos",
             };
                 
-            foreach(var word in StringList)
-
+            @* foreach(var word in StringList)
             {
                 // We can render HTML from within C# code!
                 <p>@word</p>
-            }
+            } *@
+            foreach(var word in StringList)
+            {
+            if (word.StartsWith("C"))
+                {
+                <p style="color:red;">@word</p>
+                }
+            else
+                {
+                <p>@word</p>
+                }
+    }
         }
     </main>
 </body>
