@@ -1,6 +1,7 @@
-namespace ViewModelFun.Models;
+#pragma warning disable CS8618
+// namespace ViewModelFun.Models;
 
-public class Users
+public class User
 {
     public string Name {get; set;}
     public string LastName {get; set;}
@@ -9,4 +10,9 @@ public class Users
         Name = theName;
         LastName = lastName;
     }
+
+//     public User(string first)
+//     {
+//         FirstName = first;
+//     }
 }

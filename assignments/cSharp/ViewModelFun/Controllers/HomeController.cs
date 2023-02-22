@@ -6,20 +6,14 @@ namespace ViewModelFun.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
-    [HttpGet("")]
+    [HttpGet("/")]
     public IActionResult Index()
     {
         string message = "Hello out there!";
         return View("Index", message);
     }
-    [HttpGet("/home/new-message")]
+
+    [HttpGet("/new-message")]
     public IActionResult Message() {
         string[] words = new string[] {
             "Here",
@@ -29,9 +23,10 @@ public class HomeController : Controller
         };
         return View(words);
     }
-    [HttpGet("/home/users")]
+
+    [HttpGet("/users")]
     public IActionResult Users() {
-        List<User> Users = new List<User>();
+        List<User> users = new List<User>();
         users.Add(new User("Moose", "Phillips"));
         users.Add(new User("Sarah", "Jane"));
         users.Add(new User("Yankee Boy", "Doe"));
@@ -39,9 +34,10 @@ public class HomeController : Controller
 
         return View(users);
     }
-    [HttpGet("/home/number")]
+
+    [HttpGet("/number")]
     public IActionResult Numbers() {
-        int[] Numbers = new string[] {
+        int[] Numbers = new int[] {
             1,
             2,
             3,
@@ -50,6 +46,13 @@ public class HomeController : Controller
         return View(Numbers);
     }
 
+    [HttpGet("/user")]
+    public IActionResult User()
+    {
+        User firstUser = new User("Moose", "Phillips");
+        return View(firstUser);
+    }
+    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
