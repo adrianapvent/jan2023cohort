@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Words";
+}
+@model string[];
+
+<div class="text-center">
+    @{
+        foreach(string word in Model) {
+            <h3>@word</h3>
+        }
+        for(int i = 0; i <Model.Length; i++) {
+            <h5>@Model[i]</h5>
+        }
+    }
+</div>
