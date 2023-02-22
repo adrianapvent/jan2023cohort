@@ -17,9 +17,16 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         string message = "Hello out there!";
+        string[] words = new string[] {
+            "Hello",
+            "What",
+            "Is",
+            "Happening",
+            "Here?",
+        };
         return View("Index", message);
     }
-    [HttpGet("/home/new-message")]
+    [HttpGet("new-message")]
     public IActionResult Message() {
         string[] words = new string[] {
             "Hello",
