@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/BasicWebReviewPartOne/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/BasicWebReviewPartOne/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/BasicWebReviewPartOne/wwwroot/css/style.less",
+      "PackagePath": "staticwebassets/css/style.less"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/BasicWebReviewPartOne/wwwroot/images/bee.png",
+      "PackagePath": "staticwebassets/images/bee.png"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/BasicWebReviewPartOne/wwwroot/images/beehive.jpeg",
+      "PackagePath": "staticwebassets/images/beehive.jpeg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BasicWebReviewPartOne.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BasicWebReviewPartOne.props",
+      "PackagePath": "build\\BasicWebReviewPartOne.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BasicWebReviewPartOne.props",
+      "PackagePath": "buildMultiTargeting\\BasicWebReviewPartOne.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BasicWebReviewPartOne.props",
+      "PackagePath": "buildTransitive\\BasicWebReviewPartOne.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

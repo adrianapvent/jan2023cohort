@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Index for Basic Web App</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Index</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/fakeRoute">FakeRoute</a>
+            <a href="/realRoute">RealRoute</a>
+            <a href="/melissa">IAction{/melissa}</a>
+            <a href="/juli">IAction{/juli}</a>
+            <a href="/result">User</a>
+        </nav>
+    </header>
+    <main>
+        <form action="result" method="post">
+            <input type="text" name="firstName" id="">
+            <input type="text" name="lastName" id="">
+            <input type="number" name="age" id="">
+            <input type="text" name="password" id="">
+            <input type="text" name="confirm" id="">
+            <button type="submit">Submit</button>
+        </form>
+        <h2>Form Results</h2>
+        <h3>First Name: @ViewBag.firstName</h3>
+        <h3>Last Name: @ViewBag.lastName</h3>
+        <h3>Age: @ViewBag.age</h3>
+        <h3>Check: @ViewBag.Error @ViewBag.Good</h3>
+    </main>
+</body>
+</html>

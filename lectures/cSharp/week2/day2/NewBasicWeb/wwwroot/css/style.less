@@ -1,0 +1,48 @@
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 250px;
+}
+
+body {
+    .flexcolumn();
+    width: 95%;
+
+    header {
+        .flexcolumn();
+        width: 95%;
+
+        nav {
+            .flexrow();
+            width: 85%;
+            font-size: 1.3em;
+            justify-content: space-between;
+        }
+    }
+    main {
+        .flexcolumn();
+
+        .row {
+            .flexrow();
+            flex-wrap: wrap;
+        }
+        .red {
+            color: red;
+        }
+        .blue {
+            color: #60cddb;
+            font-size: 2em;
+        }
+    }
+}

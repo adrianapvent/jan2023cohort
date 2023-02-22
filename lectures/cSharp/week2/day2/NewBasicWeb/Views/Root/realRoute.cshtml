@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Index for Basic Web App</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Index</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/fakeRoute">FakeRoute</a>
+            <a href="/realRoute">RealRoute</a>
+            <a href="/melissa">IAction{/melissa}</a>
+            <a href="/juli">IAction{/juli}</a>
+            <a href="/result">User</a>
+        </nav>
+    </header>
+    <main>
+        @{
+            var StringList = new List<string> {
+                "Apple Pie",
+                "Pizza",
+                "Cinnamon Rolls",
+                "Lasagna",
+                "Donuts",
+                "Chocolate Cake",
+                "Burritos",
+                };
+                foreach(var item in StringList) {
+                    if(item.StartsWith("C")) {
+                        <p class='red'>@item</p>
+                    } 
+                    else if(item.StartsWith("P") || item.StartsWith("L")) {
+                        <p class='blue'>@item</p>
+                    }
+                    else {
+                        <p>@item</p>
+                    }
+                }
+        }
+    </main>
+</body>
+</html>

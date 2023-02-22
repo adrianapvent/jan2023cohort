@@ -2,14 +2,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace <ProjName>.Controllers;
     public class <ControllerName> : Controller
     {
-        [HttpGet]
-        [Route("")]
-        // public string Index()
-        // {
-        //     return "Hello World from HelloController!";
-        // }
+        [HttpGet("")]
         public ViewResult Index() {
             return View();
         }
+
+        // [HttpGet]
+        // [Route("/alt")]
+        // public string AltIndex()
+        // {
+        //     return "Hello World from HelloController!";
+        // }
     }
 

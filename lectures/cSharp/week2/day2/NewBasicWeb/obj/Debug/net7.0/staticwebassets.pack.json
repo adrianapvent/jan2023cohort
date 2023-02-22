@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/NewBasicWeb/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/NewBasicWeb/wwwroot/css/style.less",
+      "PackagePath": "staticwebassets/css/style.less"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.NewBasicWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.NewBasicWeb.props",
+      "PackagePath": "build\\NewBasicWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.NewBasicWeb.props",
+      "PackagePath": "buildMultiTargeting\\NewBasicWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.NewBasicWeb.props",
+      "PackagePath": "buildTransitive\\NewBasicWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

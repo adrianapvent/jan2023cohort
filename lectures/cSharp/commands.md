@@ -11,7 +11,7 @@ dotnet new console -o ProjectName
 ```
 dotnet run
 ```
-- Everything is written in the Progame.cs file
+- Everything is written in the Progam.cs file
 
 ### Web App
 - Create a new project

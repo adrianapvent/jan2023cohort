@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "1xt/urbx6jKsI3J22w1QnOeeyh50d3SbqVCR5HdHUzw=",
+  "Source": "NewBasicWeb",
+  "BasePath": "_content/NewBasicWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NewBasicWeb/wwwroot",
+      "Source": "NewBasicWeb",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/NewBasicWeb/wwwroot/",
+      "BasePath": "_content/NewBasicWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/NewBasicWeb/wwwroot/css/style.css",
+      "SourceId": "NewBasicWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/NewBasicWeb/wwwroot/",
+      "BasePath": "_content/NewBasicWeb",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/NewBasicWeb/wwwroot/css/style.less",
+      "SourceId": "NewBasicWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/irish/coding/work/CodingDojo/instruction/wos/jan2023cohort/lectures/cSharp/week2/day2/NewBasicWeb/wwwroot/",
+      "BasePath": "_content/NewBasicWeb",
+      "RelativePath": "css/style.less",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.less"
+    }
+  ]
+}
