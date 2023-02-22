@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="text-center">
+    <form action="/register" method="post">
+        <section>
+            <label for="Name">Your Name</label>
+            <input type="text" name="Name">
+        </section>
+        <section>
+            <label for="House">Chose your House</label>
+            <select name="House" id="">
+                <option value="Gryffindor">Gryffindor</option>
+                <option value="Ravenclaw">Ravenclaw</option>
+                <option value="Slytherin">Slytherin</option>
+                <option value="Hufflepuff">Hufflepuff</option>
+            </select>
+        </section>
+        <section>
+            <label for="Year">Year</label>
+            <input type="number" name="Year" id="">
+        </section>
+        <button type="submit">Submit</button>
+    </form>
+</div>
