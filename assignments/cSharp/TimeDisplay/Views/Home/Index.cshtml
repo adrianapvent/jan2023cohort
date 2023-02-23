@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["TimeDisplay"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Display</title>
+</head>
+<body>
+    <header>Time Display</header>
+    <div class=container>
+        <h1> The current start time us is:</h1>
+        <div class=box1>
+            @{
+                string currentDate = DateTime.Now.ToString("MM/dd/yyyy hh:mm tt");
+            }
+            <div>
+                <p>@currentDate</p>
+            </div>
+        </div>
+        <h1> The end time is:</h1>
+        <div class=box2>
+            @{
+                DateTime futureDate = DateTime.Today.AddDays(305);
+            }
+            <div>
+                <p>@futureDate</p>
+            </div>
+        </div>
+        @* <div class=timeremaining>
+            @{
+                @* double timeLeft = (double)((futureDate - currentDate).TotalDays); *@
+                @* DateTime timeDiff = DateTime.Parse("25-Dec-2023 07:00");
+                double subDouble = DateTime.Now.Ticks - timeDiff.Ticks; *@
+                @* int value = DateTime.Compare(futureDate, currentDate); *@
+            @* } *@
+            @* <div>
+                <p>@timeLeft</p>
+            </div> *@
+        @* </div> *@ 
+    </div>
+</body>
+</html>
