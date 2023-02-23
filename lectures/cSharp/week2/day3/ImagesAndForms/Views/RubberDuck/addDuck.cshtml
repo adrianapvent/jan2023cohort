@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Adding Rubber Ducks";
+}
+<form action="/createDuck" method="post">
+    @* action = find function that contains this route and do it when submit is hit *@
+    <section>
+        <label for="Name">Name</label>
+        <input type="text" name="Name" id="">
+    </section>
+    <section>
+        <label for="Img">Image Link</label>
+        <input type="text" name="Img" id="">
+    </section>
+    <button type="submit">Create Duck</button>
+</form>
