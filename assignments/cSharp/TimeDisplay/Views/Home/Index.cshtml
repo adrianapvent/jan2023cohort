@@ -16,32 +16,33 @@
         <h1> The current start time us is:</h1>
         <div class=box1>
             @{
-                string currentDate = DateTime.Now.ToString("MM/dd/yyyy hh:mm tt");
+                DateTime currentDate = DateTime.Now;
             }
             <div>
-                <p>@currentDate</p>
+                <p>@currentDate.ToString("MM/dd/yyyy hh:mm tt")</p>
             </div>
         </div>
         <h1> The end time is:</h1>
         <div class=box2>
             @{
-                DateTime futureDate = DateTime.Today.AddDays(305);
+                DateTime futureDate = new DateTime(2023, 12, 25);
             }
             <div>
                 <p>@futureDate</p>
             </div>
         </div>
-        @* <div class=timeremaining>
+        <h1> The time remaining until Dec 25 is:</h1>
+        <div class=timeremaining>
             @{
-                @* double timeLeft = (double)((futureDate - currentDate).TotalDays); *@
+                int timeLeft = (int)((futureDate - currentDate).Days);
                 @* DateTime timeDiff = DateTime.Parse("25-Dec-2023 07:00");
                 double subDouble = DateTime.Now.Ticks - timeDiff.Ticks; *@
                 @* int value = DateTime.Compare(futureDate, currentDate); *@
-            @* } *@
-            @* <div>
-                <p>@timeLeft</p>
-            </div> *@
-        @* </div> *@ 
+            }
+            <div>
+                <p>@timeLeft days</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
