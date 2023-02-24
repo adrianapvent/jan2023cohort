@@ -3,10 +3,10 @@ namespace Portfolio2.Controllers;
     public class ContactController : Controller
     {
         [HttpGet]
-        [Route("/contacts")]
+        [Route("/contact")]
     
-        public ViewResults Contact() 
+        public ViewResult Contact() 
         {
-            return  View();
+            return View();
         }
     }

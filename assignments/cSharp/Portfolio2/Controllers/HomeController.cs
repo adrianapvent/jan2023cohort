@@ -3,9 +3,9 @@ namespace Portfolio2.Controllers;
     public class HomeController : Controller
     {
         [HttpGet]
-        [Route("")]
+        [Route("/")]
     
-        public ViewResults Home() 
+        public ViewResult Home() 
         {
             return View();
         }
