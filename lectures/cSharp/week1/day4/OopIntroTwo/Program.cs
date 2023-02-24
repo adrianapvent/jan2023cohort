@@ -6,5 +6,6 @@ Melissa.PrintHired();
 Melissa.PrintHiredDev();
 Melissa.PrintDevInfo();
 
-Projects FirstProj = new Projects("First Project", Melissa);
+// Projects FirstProj = new Projects("First Project", Melissa);
+Projects FirstProj = new Projects("First Project", "Melissa", 44);
 FirstProj.PrintProjInfo();

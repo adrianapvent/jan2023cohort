@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    @* Version 1 - Old style *@
+    <form action="/user/create" method="post">
+        <label for="Username">Username</label>
+        <input type="text" name="Username">
+        <label for="Email">Email</label>
+        <input type="text" name="Email">
+        <label for="FavFood">Favorite Food</label>
+        <input type="text" name="FavFood">
+        <label for="Password">Password</label>
+        <input type="password" name="Password">
+        <input type="submit" value="Add User">
+    </form>
+
+@* Version 2 - updating to use ASP *@
+    @model User
+    <form action="/user/create" method="post">    
+        <label asp-for="Username"></label>
+        <input asp-for="Username">    
+        <label asp-for="Email"></label>
+        <input asp-for="Email">
+        <label asp-for="FavFood"></label>
+        <input asp-for="FavFood">    
+        <label asp-for="Password"></label>
+        <input asp-for="Password">    
+        <input type="submit" value="Add User">
+    </form>
+
+@* Version 3 - added space for validation errors *@
+    <form action="/user/create" method="post">        
+        <label asp-for="Username"></label>    
+        <input asp-for="Username">
+        @* Added line *@
+        <span asp-validation-for="Username"></span>
+
+        <label asp-for="Email"></label>    
+        <input asp-for="Email"> 
+        @* Added line *@
+        <span asp-validation-for="Email"></span>
+
+        <label asp-for="FavFood"></label>
+        <input asp-for="FavFood">  
+        <span asp-validation-for="FavFood"></span>
+
+        <label asp-for="Password"></label>    
+        <input asp-for="Password">  
+        @* Added line *@
+        <span asp-validation-for="Password"></span>
+
+        <input type="submit" value="Add User">
+    </form>
+
+
+</body>
+</html>
