@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Human Page";
+}
+@model Human
+<h1>@Context.Session.GetString("FirstName")</h1>
+<h2>Above is what is in Session</h2>
+
+<h2>Below is from our form</h2>
+<h3>@Model.FirstName</h3>

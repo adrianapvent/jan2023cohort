@@ -13,3 +13,7 @@
     e. use ViewBag
     f. use a form
 3. Create a MVC App
+    a. Create 2 Models
+    b. Views
+    c. post
+    d. form

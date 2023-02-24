@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Pet";
+}
+@model Pet
+<form action="pet" method="post">
+    <label asp-for="Name"></label>
+    <input asp-for="Name">
+    <span asp-validation-for="Name"></span>
+    <button>Add</button>
+</form>
