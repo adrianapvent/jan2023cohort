@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@model string
+
+<h1>My Username is: @Model</h1>
+<h1>My Username is: @Context.Session.GetString("UserName")</h1>
