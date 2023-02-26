@@ -38,7 +38,10 @@ public class HomeController : Controller
 
     [HttpPost("humanTest")]
     public IActionResult HumanTest(Human theHuman){
+        // taking in the info form the form making it dictionary/object due to the Model class Human
+        // then passing just the first name into the string h
         string h = theHuman.FirstName;
+        // passing in h to the set session
         HttpContext.Session.SetString("FirstName", h);
         string TestTwo = HttpContext.Session.GetString("FirstName");
 
