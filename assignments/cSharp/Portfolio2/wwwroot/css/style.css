@@ -1,27 +1,79 @@
 * {
 	background-color: aquamarine;
+	/* display: flex;
+	flex-direction: column; */
 }
-container {
-	display: flew;
-	flex-direction: column;
-}
-header {
+body.container {
 	display: flex;
+	align-items: center;
 	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 10px;
+	margin: 10px;
 }
-nav {
+.header {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
 	color: black;
+	width: 95%;
 }
-title {
+span {
+	padding: 20px;
+}
+.title {
 	font-size: 40px;
 	text-align: center;
+	margin: 20px;
+	padding: 10px;
 }
-body {
+.aboutMeBody {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px;
+	margin: 10px;
+	width: 80%;
+}
+.pic {
+	padding: 10px;
+}
+.paragraph {
+	padding: 10px;
+	width: 80%;
+}
+.formSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+}
+.projectColumn {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 10px;
+	margin: 10px;
+}
+.projects {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px 0;
+	margin: 10px;
+	width: 80%;
+}
+.titleText {
+	padding: 85px;
 }

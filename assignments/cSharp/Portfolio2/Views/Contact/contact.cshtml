@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="~/css/style.css">
     <title>Portfolio II</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <a href=""><span>Home</span></a>
-            <a href=""><span>Projects</span></a>
-            <a href=""><span>Contact</span></a>
+<body class=container>
+    <header class=header>
+        <nav class=nav>
+            <a href="/">Home</a><span><p>  |  </p></span>
+            <a href="/project">Projects</a><span><p>  |  </p></span>
+            <a href="/contact">Contact</a>
         </nav>
     </header>
     <div class=title>Contact Me!</div>
+    <div class=formSection>
     <form action="">
         <section>
             <label for="name">Name</label>
@@ -30,6 +31,7 @@
             <textarea name="message" id="message" cols="25" rows="10">Add Message Here!</textarea>      
         </section>
     </form>
+    </div>
     <button class="send">Send</button>
 </body>
 </html>
