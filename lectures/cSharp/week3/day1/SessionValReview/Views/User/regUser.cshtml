@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+<form action="/regUser" method="post">
+    <section>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName">
+        <span asp-validation-for="FirstName"></span>
+    </section>
+    <section>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName">
+        <span asp-validation-for="LastName"></span>
+    </section>
+    <section>
+        <label asp-for="Username"></label>
+        <input asp-for="Username">
+        <span asp-validation-for="Username"></span>
+    </section>
+    <section>
+        <label asp-for="Birthday"></label>
+        <input type="datetime-local" asp-for="Birthday">
+        <span asp-validation-for="Birthday"></span>
+    </section>
+    <section>
+        <label asp-for="Email"></label>
+        <input type="email" asp-for="Email">
+        <span asp-validation-for="Email"></span>
+    </section>
+    <section>
+        <label asp-for="Password"></label>
+        <input type="password" asp-for="Password">
+        <span asp-validation-for="Password"></span>
+    </section>
+    <button>Submit</button>
+</form>
