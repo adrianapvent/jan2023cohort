@@ -1,0 +1,8 @@
+@{
+    ViewData["Title"] = "All Tunes";
+}
+@model List<Tune>
+
+    @foreach(Tune t in Model) {
+        <h2>@t.TuneName</h2>
+    }
