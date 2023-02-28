@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+@{
+    ViewData["Title"] = "Adding Dojo Users";
+}
+
+@model Survey
+<form action="/survey" method="post">
+    @* action = find function that contains this route and do it when submit is hit *@
+    <section>
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" type="text" name="Name" id="">
+    </section>
+    <span asap-validation-for="Name"></span>
+    <section>
+        <label asp-for="Location">Dojo Location</label>
+        <select name="Location">
+            <option>Dallas, TX</option>
+            <option>Brick, NJ</option>
+            <option>Zapata, TX</option>
+            <option>Austin,TX</option>
+        </select>
+    </section>
+    <span asap-validation-for="Location"></span>
+    <section>
+        <label asp-for="Language">Favorite Language</label>
+        <select name="Language">
+            <option>C#</option>
+            <option>Java</option>
+            <option>Python</option>
+            <option>SQL</option>
+        </select>
+    </section>
+    <span asap-validation-for="Language"></span>
+    <section>
+        <label asp-for="message">Comment (optional)</label>
+        <textarea name="message" id="message" cols="25" rows="10">Add Comment Here!</textarea>      
+    </section>
+    <span asap-validation-for="message"></span>
+    <button type="submit">Submit</button>
+</form>

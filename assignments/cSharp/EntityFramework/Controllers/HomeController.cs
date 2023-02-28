@@ -24,7 +24,7 @@ public class HomeController : Controller
     // Inside HomeController
 [HttpPost("monsters/create")]
 public IActionResult CreateMonster(Monster newMon)
-{    
+    {    
     if(ModelState.IsValid)
     {
         // We can take the Monster object created from a form submission
@@ -39,9 +39,7 @@ public IActionResult CreateMonster(Monster newMon)
     } else {
         // Handle unsuccessful validations
     }
-}
-
-
+    }
     public IActionResult Privacy()
     {
         return View();

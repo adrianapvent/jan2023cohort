@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Submitted Data";
+}
+
+@model Survey;
+
+<div>
+    <h1>Submitted User Results</h1>
+    <h2>Name: @Model.Name</h2>
+    <h2>Location: @Model.Location</h2>
+    <h2>Favorite Language: @Model.Language</h2>
+    <h2>Comments/Messages (optional): @Model.message</h2>
+</div>
