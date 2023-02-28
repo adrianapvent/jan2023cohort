@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Toons.Models;
 
-namespace Toons.Controllers;
+namespace HomeController.Controllers;
 
 public class HomeController : Controller
 {
