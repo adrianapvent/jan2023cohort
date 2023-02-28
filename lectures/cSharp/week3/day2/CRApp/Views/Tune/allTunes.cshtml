@@ -3,6 +3,12 @@
 }
 @model List<Tune>
 
-    @foreach(Tune t in Model) {
-        <h2>@t.TuneName</h2>
-    }
+    <div class="row">
+        @* The returned shrimp platter full of shrimp *@
+        @foreach(Tune t in Model) {
+            <div class="character">
+                <img src="@t.TuneImg" alt="@t.TuneName">
+                <h2>@t.TuneName</h2>
+            </div>
+        }
+    </div>

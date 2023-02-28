@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "All Squishies";
+}
+@model List<Squishy>
+
+    <div class="row">
+        @* The returned shrimp platter full of shrimp *@
+        @foreach(Squishy s in Model) {
+            <div class="character">
+                <img src="@s.SquishyImg" alt="@s.SquishyName">
+                <h2>@s.SquishyName</h2>
+            </div>
+        }
+    </div>

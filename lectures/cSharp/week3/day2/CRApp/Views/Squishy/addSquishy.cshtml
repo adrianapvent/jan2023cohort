@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Add New Squishy";
+}
+@model Squishy
+
+<h1>Add a new Squishy</h1>
+
+<form action="/squishy/createSquishy" method="post">
+    <section>
+        <label for="SquishyName">Squishy Name</label>
+        <input type="text" name="SquishyName" id="">
+        <span asp-validation-for="SquishyName"></span>
+    </section>
+    <section>
+        <label for="SquishyImg">Link to Sqyishy Image</label>
+        <input type="text" name="SquishyImg" id="">
+        <span asp-validation-for="SquishyImg"></span>
+    </section>
+    <section>
+        <label for="Owner">Owner</label>
+        <input type="text" name="Owner" id="">
+        <span asp-validation-for="Owner"></span>
+    </section>
+    <button>Add Squishy</button>
+</form>
