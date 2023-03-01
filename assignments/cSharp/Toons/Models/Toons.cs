@@ -10,7 +10,7 @@ public class Tune {
     [Required]
     public string TuneImg {get; set;}
     // [Required]
-    // public string Owner {get; set;}
+    public string Owner {get; set;}
 
     // The ? means that this attribute is not required
     // public string? TuneLocation {get; set;}

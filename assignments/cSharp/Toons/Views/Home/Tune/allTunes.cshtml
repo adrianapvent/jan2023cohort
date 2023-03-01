@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "All Tunes";
+}
+@model List<Tune>
+
+    <div class="row">
+        @* The returned shrimp platter full of shrimp *@
+        @foreach(Tune t in Model) {
+            <div class="character">
+                <img src="@t.TuneImg" alt="@t.TuneName">
+                <h2>@t.TuneName</h2>
+            </div>
+        }
+    </div>

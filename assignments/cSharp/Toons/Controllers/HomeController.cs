@@ -8,9 +8,12 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    private MyContext db;
+
+    public HomeController(ILogger<HomeController> logger, MyContext context)
     {
         _logger = logger;
+        db = context;
     }
 
     public IActionResult Index()
