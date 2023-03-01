@@ -17,7 +17,7 @@
         <label asp-for="Name">Name</label>
         <input asp-for="Name" type="text" name="Name" id="">
     </section>
-    <span asap-validation-for="Name"></span>
+    <span asp-validation-for="Name"></span>
     <section>
         <label asp-for="Location">Dojo Location</label>
         <select name="Location">
@@ -27,7 +27,7 @@
             <option>Austin,TX</option>
         </select>
     </section>
-    <span asap-validation-for="Location"></span>
+    <span asp-validation-for="Location"></span>
     <section>
         <label asp-for="Language">Favorite Language</label>
         <select name="Language">
@@ -37,11 +37,11 @@
             <option>SQL</option>
         </select>
     </section>
-    <span asap-validation-for="Language"></span>
+    <span asp-validation-for="Language"></span>
     <section>
         <label asp-for="message">Comment (optional)</label>
         <textarea name="message" id="message" cols="25" rows="10">Add Comment Here!</textarea>      
     </section>
-    <span asap-validation-for="message"></span>
+    <span asp-validation-for="message"></span>
     <button type="submit">Submit</button>
 </form>
