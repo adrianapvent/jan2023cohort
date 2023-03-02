@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Melissa's Crochet";
+}
+@model Crochet
+
+
+    <form action="/crochet/createProject" method="post">
+        <section>
+            <label for="Name">Project Name</label>
+            <input type="text" name="Name" id="">
+            <span asp-validation-for="Name"></span>
+        </section>
+        <section>
+            <label for="Description">Description</label>
+            <textarea name="Description" id="" cols="30" rows="10"></textarea>
+            <span asp-validation-for="Description"></span>
+        </section>
+        <section>
+            <label for="Img">Link to Image</label>
+            <input type="text" name="Img" id="">
+            <span asp-validation-for="Img"></span>
+        </section>
+        <button>Add Project</button>
+    </form>

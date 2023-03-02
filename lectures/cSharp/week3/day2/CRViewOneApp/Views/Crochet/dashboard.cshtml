@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Melissa's Crochet";
+}
+@model List<Crochet>
+
+
+    <h1>Welcome One and all</h1>
+    <h2>Please find projects below that I have done</h2>
+
+    <div class="row">
+        @foreach(Crochet c in Model) {
+            <div class="column">
+                <img src="@c.Img" alt="@c.Name">
+                <h3>@c.Name</h3>
+                @* <p>@c.Description</p> *@
+                <button><a href="/crochet/@c.CrochetId/view">View</a></button>
+            </div>
+        }
+    </div>
+

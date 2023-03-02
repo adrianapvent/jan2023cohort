@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Monster</title>
+</head>
+<body>
+    @model Monster
+        <header>
+            <h1>Edit @Model.Name</h1>
+            <nav>
+                <a href="/monster">Home</a>
+                <a href="/monster/addMonster">Add a New Monster</a>
+                <a href="/logout">logout</a>
+            </nav>
+        </header>
+        <main>
+            <form action="/monster/@Model.MonsterId/update" method="post">
+                <section>
+                    <label for="Name">Monster Name</label>
+                    <input type="text" name="Name" value="@Model.Name">
+                    <span asp-validation-for="Name"></span>
+                </section>
+                <section>
+                    <label for="Img">Link to Image</label>
+                    <input type="text" name="Img" value="@Model.Img">
+                    <span asp-validation-for="Img"></span>
+                </section>
+                <button>Edit Monster</button>
+            </form>
+        </main>
+</body>
+</html>

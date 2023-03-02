@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    @model List<Monster>
+        <header>
+            <h1>Welcome to our Monster Page, @Context.Session.GetString("name")</h1>
+            <h2>@Context.Session.GetInt32("uid")</h2>
+            <h2>Take a look around and feel free to add your own</h2>
+            <nav>
+                <a href="/monster">Home</a>
+                <a href="/monster/addMonster">Add a New Monster</a>
+                <a href="/logout">logout</a>
+            </nav>
+        </header>
+        <main>
+            @foreach(Monster m in Model) {
+                <div class="column">
+                    <img src="@m.Img" alt="@m.Name">
+                    <h3>Monster Name: @m.Name</h3>
+                    <a href="/monster/@m.MonsterId/edit">Edit</a>
+                    <a href="/monster/@m.MonsterId/view">View</a>
+                    <a href="/monster/@m.MonsterId/delete">Delete</a>
+                </div>
+            }
+        </main>
+</body>
+</html>

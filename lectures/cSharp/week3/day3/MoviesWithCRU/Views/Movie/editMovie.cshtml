@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Movie
+<form action="/movie/@Model.MovieId/update" method="post">
+    <section>
+        <label for="Title">Title</label>
+        <input type="text" name="Title" id="" value="@Model.Title">
+        <span asp-validation-for="Title"></span>
+    </section>
+    <section>
+        <label for="Genre">Genre</label>
+        <input type="text" name="Genre" id="" value="@Model.Genre">
+        <span asp-validation-for="Genre"></span>
+    </section>
+    <section>
+        <label action="Year">Year</label>
+        <input type="number" name="Year" id="" value="@Model.Year">
+        <span asp-validation-for="Year"></span>
+    </section>
+    <section>
+        <label for="Rating">Rating</label>
+        <input type="number" name="Rating" id="" value="@Model.Rating">
+        <span asp-validation-for="Rating"></span>
+    </section>
+    <section>
+        <label for="Img">Link to Image</label>
+        <input type="text" name="Img" id="" value="@Model.Img">
+        <span asp-validation-for="Img"></span>
+    </section>
+    <button>Update Movie</button>
+</form>
