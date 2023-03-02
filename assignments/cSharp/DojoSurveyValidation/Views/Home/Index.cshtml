@@ -10,14 +10,14 @@
     ViewData["Title"] = "Adding Dojo Users";
 }
 
-@model Survey
-<form action="/survey" method="post">
+@model User
+<form action="/user/create" method="post">
     @* action = find function that contains this route and do it when submit is hit *@
     <section>
         <label asp-for="Name">Name</label>
         <input asp-for="Name" type="text" name="Name" id="">
+        <span asp-validation-for="Name"></span>
     </section>
-    <span asp-validation-for="Name"></span>
     <section>
         <label asp-for="Location">Dojo Location</label>
         <select name="Location">
@@ -26,8 +26,8 @@
             <option>Zapata, TX</option>
             <option>Austin,TX</option>
         </select>
+        <span asp-validation-for="Location"></span>
     </section>
-    <span asp-validation-for="Location"></span>
     <section>
         <label asp-for="Language">Favorite Language</label>
         <select name="Language">
@@ -36,12 +36,12 @@
             <option>Python</option>
             <option>SQL</option>
         </select>
+        <span asp-validation-for="Language"></span>
     </section>
-    <span asp-validation-for="Language"></span>
     <section>
         <label asp-for="message">Comment (optional)</label>
-        <textarea name="message" id="message" cols="25" rows="10">Add Comment Here!</textarea>      
+        <textarea name="message" id="message" cols="25" rows="10">Add Comment Here!</textarea>   
+        <span asp-validation-for="message"></span>   
     </section>
-    <span asp-validation-for="message"></span>
     <button type="submit">Submit</button>
 </form>

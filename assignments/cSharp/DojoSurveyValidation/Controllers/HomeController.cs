@@ -11,13 +11,15 @@ public class HomeController : Controller
         return View();
     }
 
-    [HttpPost("/user")]
-    public ViewResult UserIndex(string Name, string Location, string Language, string message) {
-        ViewBag.Name = Name;
-        ViewBag.Location = Location;
-        ViewBag.Language = Language;
-        ViewBag.Message = message;
-        return View();
+    [HttpPost("/user/create")]
+    public IActionResult Submission(User user)
+    {
+        if (ModelState.IsValid)
+        {
+            return View("ViewUser", user);
+        } else {
+            return View("Index");
+        }
     }
 
     [HttpGet("/viewUser")]

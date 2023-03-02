@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 namespace DojoSurveyValidation.Models;
 
-public class Survey
+public class User
 {
     [Required(ErrorMessage="Name is required")]
     [MinLength(2, ErrorMessage="Name must be at least 2 characters")]
