@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Date";
+}
+
+@model Form;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Index</title>
+</head>
+<body>
+    <div>
+        <h1>Date Validator</h1>
+        <form action="/result" mthod="post">
+            <section>
+                <label asp-for="Date"></label>
+                <input type="date" asp-for="Date">
+                <span asp-validation-for="Date"></span>
+            </section>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
