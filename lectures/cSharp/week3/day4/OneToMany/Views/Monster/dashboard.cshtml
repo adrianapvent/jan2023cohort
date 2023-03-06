@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+@model List<Monster>
+<h1>Welcome back to Monster's Inc, @Context.Session.GetString("name")</h1>
+
+<div class="row">
+    @foreach(Monster m in Model) {
+    <div class="column">
+        <h2>@m.Name</h2>
+        <img src="@m.Img" alt="@m.Name">
+        <p>Private: @m.Hidden<br>User: @m.Owner.FirstName</p>
+        <p>
+            <a href="/monster/@m.MonsterId/view">View</a><br>
+            @if(@m.UserId == @Context.Session.GetInt32("uid")) {
+                <a href="/monster/@m.MonsterId/edit">Edit</a><br>
+                <a href="/monster/@m.MonsterId/delete/">Delete</a>
+            }
+        </p>
+    </div>
+}
+</div>

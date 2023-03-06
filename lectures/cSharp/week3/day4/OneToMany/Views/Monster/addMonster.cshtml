@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Add Monster";
+}
+@model Monster
+
+<form action="/monster/createMonster" method="post">
+    <section>
+        <label for="Name">Monster Name</label>
+        <input type="text" name="Name">
+        <span asp-validation-for="Name"></span>
+    </section>
+    <section>
+        <label for="Img">Link to Image</label>
+        <input type="text" name="Img">
+        <span asp-validation-for="Img"></span>
+    </section>
+    <section>
+        <label for="Hidden">Keep your Monster Private</label>
+        <section>
+            <label for="Hidden">Yes</label>
+            <input type="radio" name="Hidden" value="yes">
+        </section>
+        <section>
+            <label for="Hidden">No</label>
+            <input type="radio" name="Hidden" value="no">
+        </section>
+    </section>
+    <section>
+        @* <input type="hidden" name="UserId" value='@Context.Session.GetInt32("uid")'> *@
+    </section>
+    <button>Add Monster</button>
+</form>

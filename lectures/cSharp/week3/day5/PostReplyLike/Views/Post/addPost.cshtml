@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Post
+<h1>Add a new Post</h1>
+<form action="/post/createPost" method="post">
+    <section>
+        <label for="Title">Title</label>
+        <input type="text" name="Title" id="">
+        <span asp-validation-for="Title"></span>
+    </section>
+    <section>
+        <label for="Content">Post Content</label>
+        <textarea name="Content" id="" cols="30" rows="10"></textarea>
+        <span asp-validation-for="Content"></span>
+    </section>
+    <button>Add Post</button>
+</form>

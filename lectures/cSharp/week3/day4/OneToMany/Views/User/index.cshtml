@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "Monster's Inc";
+}
+<h1>Welome to Monster's Inc</h1>
+
+<div class="row">
+    @await Html.PartialAsync("_Register")
+    @await Html.PartialAsync("_login")
+</div>

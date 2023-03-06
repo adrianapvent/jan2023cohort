@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Post
+<h1>@Model.Title</h1>
+<div class="row">
+    <p>@Model.Content</p>
+    <div class="column">
+        @if(@Model.UserId == @Context.Session.GetInt32("uid")) {
+            <a href="/post/@Model.PostId/edit">Edit</a>
+            <a href="/post/@Model.PostId/delete">Delete</a>
+        }
+    </div>
+    
+</div>
+<h4>Created by: @Model.Author.FirstName on @Model.CreatedAt</h4>

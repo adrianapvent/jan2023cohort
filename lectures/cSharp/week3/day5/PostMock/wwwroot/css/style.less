@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script&family=Gloria+Hallelujah&display=swap');
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+}
+a {
+    font-size: 1em;
+}
+.fontOne {
+    font-family: 'Bungee Spice', cursive;
+}
+.fontTwo {
+    font-family: 'Dancing Script', cursive;
+}
+.fontThree {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #a3a1a1;
+}
+img {
+    max-width: 400px;
+}
+
+body {
+    .fontThree();
+    .flexcolumn();
+    width: 95%;
+    background-color: #4d0537;
+    color: #a3a1a1;
+    ;
+
+    header {
+        .flexcolumn();
+        width: 95%;
+
+
+        nav {
+            position: relative;
+            .flexrow();
+            padding: .5em 0;
+            justify-content: flex-start;
+            box-shadow: 0 .25em .75em #00ffff6e;
+            margin: 1em 0;
+            width: 85%;
+
+            .site {
+                padding: .3em 0;
+                margin: 0 1em;
+                font-size: 1.6em;
+                text-decoration: none;
+                .fontTwo();
+            }
+            nav {
+                padding: 0 .75em;
+                margin: 0 auto;
+                box-shadow: none;
+
+                a {
+                    display: block;
+                    padding: .5em 1em;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    main {
+        .flexcolumn();
+        width: 95%;
+        margin: 0 0 2em 0;
+        min-height: 600px;
+        justify-content: flex-start;
+
+        .headUser {
+            align-self: flex-end;
+        }
+
+        h1 {
+            .fontTwo();
+            margin: 0 1em;
+        }
+        .photo {
+            .flexcolumn();
+            margin: 1em;
+        }
+        .post {
+            .flexcolumn();
+            margin: .5em;
+            width: 85%;
+
+            .row {
+                .flexrow();
+                justify-content: space-between;
+            }
+        }
+
+        .row {
+            .flexrow();
+            flex-wrap: wrap;
+            width: 95%;
+
+            .character, .column {
+                .flexcolumn();
+
+                img {
+                    max-width: 300px;
+                }
+            }
+        }
+
+        form {
+            .flexcolumn();
+            width: 50%;
+            box-shadow: 0 .25em .75em #00ffff6e;
+            min-width: 400px;
+
+            section {
+                .flexrow();
+                padding: .5em 2em;
+                justify-content: space-between;
+                min-width: 350px;
+
+                label {
+                    padding: 1em;
+                }
+                input {
+                    padding: 1em;
+                }
+            }
+        }
+    }
+    footer {
+        .flexrow();
+        width: 95%;
+        // position: absolute;
+        // bottom: 0;
+        // // line-height: 60px;
+        border-top: 1px solid #00ffff6e;
+        color: #6c757d;
+
+        .row {
+            // position: relative;
+            .flexrow();
+            padding: .5em 0;
+            justify-content: flex-start;
+            box-shadow: 0 .25em .75em #00ffff6e;
+            margin: 1em 0;
+            width: 85%;
+        }
+    }
+}

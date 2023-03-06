@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Add Reply";
+}
+@model Reply
+<h1>Add Reply</h1>
+<form action='/reply/@Context.Session.GetInt32("thePost")/createReply' method="post">
+
+    <section>
+        <label for="Word">Post Content</label>
+        <textarea name="Word" id="" cols="30" rows="10"></textarea>
+        <span asp-validation-for="Word"></span>
+    </section>
+    <button>Add Reply</button>
+</form>

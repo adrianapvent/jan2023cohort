@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+@model List<Post>
+
+<h3 class='headUser'>Hi, @Context.Session.GetString("name")</h3>
+<h1>The Post Feed</h1>
+@foreach(Post p in Model) {
+    <div class='post'>
+        <div class="row">
+            <h3><a href="/post/@p.PostId/view">@p.Title</a></h3>
+            <p>@p.CreatedAt</p>
+        </div>
+        <p>@p.Content</p>
+        <p>@p.Author</p>
+        <a href="/reply/@p.PostId/addReply">Reply to Post</a>
+        @foreach(var r in p.Comment) {
+            <p>@r.Word</p>
+        }
+    </div>
+}
