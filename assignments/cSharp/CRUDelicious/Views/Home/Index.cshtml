@@ -3,6 +3,25 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Welcome to CRUDelicious</h1>
+    <p>Check out some recent Dishes!</p>
+    <nav class="nav align-items-center justify-content-center">
+        <a href="/">Home</a>
+        <a href="/addDish">Add Dish</a>
+    </nav>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@model List<Dish>
+<div>
+    <h3>Check out some recent Dishes</h3> 
+</div>
+<div>
+    @{
+        foreach(Dish d in Model){
+        <h4><a href="Home/addDish/@d.DishId">@d.Name by @d.Chef</a></h4>
+        <a href="/Home/@d.DishId/editDish">Edit Dish</a>
+        <a href="/Home/@d.DishId/Delete">Delete</a>
+        }
+    }
 </div>

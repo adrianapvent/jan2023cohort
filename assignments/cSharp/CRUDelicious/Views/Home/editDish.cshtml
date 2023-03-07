@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Edit a Dish";
+}
+@model Dish
+<div class="text-center">
+    <h1 class="display-4">Edit @Model.Name</h1>
+    <nav class="nav align-items-center justify-content-center">
+        <a href="/">Home</a>
+        <a href="/addDish">Add Dish</a>
+        <a href="/editDish">Edit/Update Dish</a>
+    </nav>
+</div>
+<form asp-action="updateDish" asp-route-id="@Model.DishId" asp-controller="Home" method="post">
+    <section>
+        <label asp-for="Chef">Chef's Name</label>
+        <input asp-for="Chef" value="@Model.Chef">
+        <span asp-validation-for="Chef"></span>
+    </section>
+    <section>
+        <label asp-for="Name">Name of Dish</label>
+        <input asp-for="Name" value="@Model.Name">
+        <span asp-validation-for="Name"></span>
+    </section>
+    <section>
+        <label asp-for="Calories">Enter number of Calories</label>
+        <input asp-for="Calories" type="number" value="@Model.Calories">
+        <span asp-validation-for="Calories"></span>
+    </section>
+    <section>
+        <label asp-for="Tastiness">Tastiness</label>
+        <select name="Tastiness">
+            <option value="none" selected disabled hidden">@Model.Tastiness</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <span asp-validation-for="Tastiness"></span>
+    </section>
+    <section>
+        <label asp-for="Description">Enter a Description, containing at least 3 characters.</label>
+        <input asp-for="Description" value="@Model.Description" cols="30" rows="10">
+        <span asp-validation-for="Description"></span>
+    </section>
+    <button>Edit/Update Dish</button>
+</form>
