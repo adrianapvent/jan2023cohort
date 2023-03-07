@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Animal>
+<div class="text-center">
+    <h1>Welcome to the Animal Page, @Context.Session.GetString("name")</h1>
+    <nav>
+        <a href="/">Home</a>
+        @* <a href="/zoo/addZoo">Add New Zoo</a> *@
+        <a href="/animal/dashboard">Animal Dashboard</a>
+        <a href="/animal/addAnimal">Add New Animal</a>
+    </nav>
+    <table>
+        <tr>
+            <th>Species</th>
+            <th>Diet</th>
+            <th>Habitat</th>
+            <th>Actions</th>
+        </tr>
+        @foreach(Animal a in Model) {
+            <tr>
+                <td>@a.Species</td>
+                <td>@a.Diet</td>
+                <td>@a.Habitat</td>
+                <td><a href="/animal/{@a.AnimalId}/view">View</a> | <a href="#">Edit</a> | <a href="#">Delete</a></td>
+            </tr>
+        }
+    </table>
+
+
+
+</div>

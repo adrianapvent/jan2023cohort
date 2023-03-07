@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Animal
+
+<form action="/animal/createAnimal" method="post">
+    <section>
+        <label for="Species">Species</label>
+        <input type="text" name="Species" id="">
+        <span asp-validation-for="Species"></span>
+    </section>
+    <section>
+        <label for="Diet">Diet</label>
+        <input type="text" name="Diet" id="">
+        <span asp-validation-for="Diet"></span>
+    </section>
+    <section>
+        <label for="Habitat">Habitat</label>
+        <input type="text" name="Habitat" id="">
+        <span asp-validation-for="Habitat"></span>
+        <button>Add Animal</button>
+    </section>
+</form>

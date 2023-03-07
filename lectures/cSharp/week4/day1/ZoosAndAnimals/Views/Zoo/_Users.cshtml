@@ -1,0 +1,8 @@
+@model List<User>
+<section>
+    <select name="UserId" id="">
+        @foreach(User u in Model) {
+            <option value="@u.UserId">@u.FullName()</option>
+        }
+    </select>
+</section>

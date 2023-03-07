@@ -24,7 +24,7 @@ public class UserController : Controller
     
     // Recommend routeName and FunctionName be the same
     
-    [HttpGet("")]
+    [HttpGet("/")]
     public IActionResult Index() {
         if(HttpContext.Session.GetInt32("uid") != null) {
             return RedirectToAction("Dashboard", "Post");
