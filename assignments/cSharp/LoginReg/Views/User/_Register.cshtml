@@ -1,7 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-@model User
+﻿@model User
 <div class="column">
     <h2>Register</h2>
     <form action="/register" method="post">
@@ -19,6 +16,11 @@
             <label for="Email">Email</label>
             <input type="email" name="Email" id="">
             <span asp-validation-for="Email"></span>
+        </section>
+        <section>
+            <label for="Username">Username</label>
+            <input asp-for="Username">
+            <span asp-validation-for="Username"></span>
         </section>
         <section>
             <label for="Password">Password</label>
