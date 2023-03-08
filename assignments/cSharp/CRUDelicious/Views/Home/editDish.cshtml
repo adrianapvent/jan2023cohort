@@ -28,8 +28,8 @@
     </section>
     <section>
         <label asp-for="Tastiness">Tastiness</label>
-        <select name="Tastiness">
-            <option value="none" selected disabled hidden">@Model.Tastiness</option>
+        <select name="Tastiness" value="@Model.Tastiness">
+            <option selected>@Model.Tastiness</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
