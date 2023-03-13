@@ -42,16 +42,16 @@ public class User {
         return FirstName + " " + LastName;
     }
 }
-public class UniqueEmailAttribute : ValidationAttribute {
-    protected override ValidationResult? IsValid(object? value, ValidationContext valContext) {
-        if(value == null) { // if email input is empty
-            return new ValidationResult("Email is required");
-        }
-        MyContext _context = (MyContext)valContext.GetService(typeof(MyContext));
-        if(_context.Users.Any(e => e.Email == value.ToString())) {
-            return new ValidationResult("Email is in use"); // if email is in database
-        } else {
-            return ValidationResult.Success; // email not in database good to go
-        }
-    }
-}
+// public class UniqueEmailAttribute : ValidationAttribute {
+//     protected override ValidationResult? IsValid(object? value, ValidationContext valContext) {
+//         if(value == null) { // if email input is empty
+//             return new ValidationResult("Email is required");
+//         }
+//         MyContext _context = (MyContext)valContext.GetService(typeof(MyContext));
+//         if(_context.Users.Any(e => e.Email == value.ToString())) {
+//             return new ValidationResult("Email is in use"); // if email is in database
+//         } else {
+//             return ValidationResult.Success; // email not in database good to go
+//         }
+//     }
+// }

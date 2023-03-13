@@ -45,6 +45,7 @@ public class PostController : Controller
         return View("AddPost");
     }
 
+    [SessionCheck]
     [HttpPost("/post/createPost")]
     public IActionResult CreatePost(Post p) {
         p.UserId = (int)uid;

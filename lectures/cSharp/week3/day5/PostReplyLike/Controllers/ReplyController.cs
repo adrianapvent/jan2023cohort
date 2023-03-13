@@ -30,7 +30,7 @@ public class ReplyController : Controller
         HttpContext.Session.SetInt32("thePost", thePost);
         return View("AddReply");
     }
-
+    [SessionCheck]
     [HttpPost("/reply/{postId}/createReply")]
     public IActionResult CreateReply(Reply r, int postId) {
         Console.WriteLine($" am i in the function? {r}");

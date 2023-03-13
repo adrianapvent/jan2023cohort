@@ -27,10 +27,10 @@ public class ZooController : Controller
     public IActionResult Dashboard() {
         List<Zoo> allTheZoos = db.Zoos
             .Include(o => o.Owner)
-            .Include(z => z.AllAnimals)
-            .ThenInclude(a => a.TheAnimal)
+            // .Include(z => z.AllAnimals)
+            // .ThenInclude(a => a.TheAnimal)
             // .ThenInclude(theA => theA.AllZoos)
-            .OrderBy(z => z.Location)
+            // .OrderBy(z => z.Location)
             .ToList();
 
         return View("Dashboard", allTheZoos);
@@ -58,18 +58,18 @@ public class ZooController : Controller
         return View("AddZoo");
     }
 
-    [SessionCheck]
-    [HttpGet("/zoo/{zooId}/viewZoo")]
-    public IActionResult ViewZoo(int theZoo) {
-        MyViewModel zooInfo = new MyViewModel {
-            Zoo? aZoo = db.Zoos
-                .Include(o => o.Owner)
-                // .Include(m => m.AllAnimals)
-                // .Where(z => (int)z.ZooId)
-                .ToList()
-        };
-        return View("ViewZoo");
-    }
+    // [SessionCheck]
+    // [HttpGet("/zoo/{zooId}/viewZoo")]
+    // public IActionResult ViewZoo(int theZoo) {
+    //     MyViewModel zooInfo = new MyViewModel {
+    //         Zoo? aZoo = db.Zoos
+    //             .Include(o => o.Owner)
+    //             // .Include(m => m.AllAnimals)
+    //             // .Where(z => (int)z.ZooId)
+    //             .ToList()
+    //     };
+    //     return View("ViewZoo");
+    // }
 
     // [SessionCheck]
     // [HttpGet("/zoo/{zooId}/editZoo")]
