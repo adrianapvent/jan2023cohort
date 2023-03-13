@@ -6,7 +6,7 @@ public class FutureDateAttribute : ValidationAttribute
 {
     protected override ValidationResult IsValid(object value, ValidationContext validationContext)
     {
-        List<ValidationResult> results = new List<ValidationResult>();
+        DateTime InputDate = Convert.ToDateTime(value);
 
         if (DateTime.Now < (DateTime)value) {
             return new ValidationResult ("No future dates are allowed");
