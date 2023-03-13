@@ -1,9 +1,9 @@
 ﻿@{
     ViewData["Title"] = "Generated Random Passcode";
 }
-@model string
 
 <div class="text-center">
-    <h1 class="display-4">Random Generator #@Context.Session.GetInt32("value")</h1>
-
+    <h1 class="display-4">Random Generated Passcode</h1>
+    <h1>@ViewBag.sb</h1>
+    <button><a href="generate">Click to Generate a Password</a></button>
 </div>
