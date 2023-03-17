@@ -25,3 +25,12 @@ hs_err_pid*
 *.DS_Store
 .node_modules
 key.js
+
+# class directories
+*lectures/
+*classProject/
+*bin/
+*.csproj
+
+# .json files to ignore
+appsettings.json

@@ -4,8 +4,23 @@
 @* @model Zoo *@
 @model MyViewModel
 <h1>Add a new Zoo</h1>
+<<<<<<< HEAD
+<form action="/zoo/addZoo" method="post">
+    <section>
+        <label for="Name">Title</label>
+        <input type="text" name="Name" id="">
+        <span asp-validation-for="Name"></span>
+    </section>
+    <section>
+        <label for="Location">Post Content</label>
+        <textarea name="Location" id="" cols="30" rows="10"></textarea>
+        <span asp-validation-for="Location"></span>
+    </section>
+    
+=======
 <form action="/zoo/createZoo" method="post">
     @await Html.PartialAsync("_Zoo", Model.Zoo)
     @await Html.PartialAsync("_Users", Model.AllUsers)
+>>>>>>> upstream/main
     <button>Add Post</button>
 </form>

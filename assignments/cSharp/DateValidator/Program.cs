@@ -1,20 +1,8 @@
-using Microsoft.EntityFrameworkCore;
-using DateValidator.Models;
-
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
 builder.Services.AddControllersWithViews();
-
-builder.Services.AddHttpContextAccessor();  
-builder.Services.AddSession();  
-
-builder.Services.AddDbContext<MyContext>(options =>
-{
-    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
-});
-
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -26,9 +14,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+// app.UseAuthorization();
 
-app.UseSession();    
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
