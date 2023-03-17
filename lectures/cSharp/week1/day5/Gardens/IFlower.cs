@@ -1,3 +1,0 @@
-interface IFlower {
-    void Flower();
-}

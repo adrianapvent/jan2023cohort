@@ -13,5 +13,5 @@ Admin = 22 admin side
 org owner = 14 = org profile + delete
 org member = 12 = org
 org member and dev = 4 = org + dev profile
-dev = 2 = deb profile
+dev = 2 = dev profile
 gen = 1  = newbie
